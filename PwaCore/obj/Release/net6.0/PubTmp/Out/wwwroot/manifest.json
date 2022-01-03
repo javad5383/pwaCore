@@ -1,0 +1,93 @@
+{
+    "name":"PWA Shop",
+    "short_name":"Shop",
+    "description":"this an test PWA by javad mohammadi",
+    "background_color":"#fff",
+    "theme_color":"#3f51b5",
+    "start_url": "/home",
+    "scope":".",
+    "orientation":"portrait-primary",
+    "display":"standalone",
+    "dir":"ltr",
+    "lang":"en-US",
+    "icons":[
+        {
+            "src":"/img/icons/Icon_safety48.png",
+            "type":"image/png",
+            "sizes":"48x48"
+        },
+    
+        {
+            "src":"/img/icons/Icon_safety57.png",
+            "type":"image/png",
+            "sizes":"57x57"
+        },
+        {
+            "src":"/img/icons/Icon_safety72.png",
+            "type":"image/png",
+            "sizes":"72x72"
+        },
+        {
+            "src":"/img/icons/Icon_safety76.png",
+            "type":"image/png",
+            "sizes":"76x76"
+        },
+        {
+            "src":"/img/icons/Icon_safety96.png",
+            "type":"image/png",
+            "sizes":"96x96"
+        },
+        {
+            "src":"/img/icons/Icon_safety114.png",
+            "type":"image/png",
+            "sizes":"114x114"
+        },
+        {
+            "src":"/img/icons/Icon_safety144.png",
+            "type":"image/png",
+            "sizes":"144x144"
+        },
+        {
+            "src":"/img/icons/Icon_safety152.png",
+            "type":"image/png",
+            "sizes":"152x152"
+        },
+        {
+            "src":"/img/icons/Icon_safety167.png",
+            "type":"image/png",
+            "sizes":"167x167"
+        },
+        {
+            "src":"/img/icons/Icon_safety180.png",
+            "type":"image/png",
+            "sizes":"180x180"
+        },
+        {
+            "src":"img/icons/Icon_safety192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        },
+        {
+            "src":"/img/icons/Icon_safety256.png",
+            "type":"image/png",
+            "sizes":"256x256"
+        },
+        {
+            "src":"img/icons/Icon_safety384.png",
+            "type":"image/png",
+            "sizes":"384x384"
+        },
+        {
+            "src":"/img/icons/Icon_safety512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        },
+        {
+            "src": "/img/maskable_icon-196.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
+
+    ]
+}

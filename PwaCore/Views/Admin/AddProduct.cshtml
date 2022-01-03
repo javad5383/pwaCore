@@ -1,0 +1,77 @@
+﻿@model Products
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div style="margin-top:100px" class="container-fluid">
+    <form asp-controller="AddProduct" asp-action="index"  method="post" enctype="multipart/form-data">
+        <div class="form-row addpro">
+            <div class="col-md-6">
+                <input asp-for="Name" type="text" class="form-control" placeholder="نام محصول">
+            </div>
+            <div class="col-md-6">
+                <input asp-for="Price"  type="number" class="form-control" placeholder="قیمت">
+            </div>
+        </div>
+        <div class="form-row addpro">
+            <div class="col-md-6">
+                <div class="btn btn-success file-btn">
+                    <p class="file-lable">انتخاب عکس اصلی</p>
+                    <input name="mainImg" id="choose-file" type="file" class=" file-input">
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="btn btn-success file-btn">
+                    <p class="file-lable">انتخاب عکس‌های بیشتر </p>
+                    <input name="images" id="gallery-photo-add" multiple type="file" class=" file-input">
+                </div>
+            </div>
+        </div>
+        <div class="form-row addpro">
+            <div id="img-preview" class="col-md-6">
+            </div>
+            <div id="gallery" class="col-md-6">
+            </div>
+        </div>
+        <div style="display:flex">
+            <div class="col-md-3">
+                <input class="btn btn-secondary  " type="submit" value="انجام" />
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-danger btn-block">بازگشت</a>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+<script>
+    const chooseFile = document.getElementById("choose-file");
+console.log(chooseFile);
+const imgPreview = document.getElementById("img-preview");
+chooseFile.addEventListener("change", function () {
+  
+    getImgData();
+});
+
+function getImgData() {
+
+    const files = chooseFile.files[0];
+    if (files) {
+
+        const fileReader = new FileReader();
+        fileReader.readAsDataURL(files);
+        fileReader.addEventListener("load", function () {
+            imgPreview.style.display = "block";
+            imgPreview.innerHTML = '<img class="selectedimg" src="' + this.result + '" />';
+        });
+    }
+}
+
+</script>
+
+
