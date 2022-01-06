@@ -1,5 +1,6 @@
 ﻿
 $(function () {
+    
     // Multiple images preview in browser
     var imagesPreview = function (input, placeToInsertImagePreview) {
 
@@ -25,9 +26,10 @@ $(function () {
     });
 
     //change image after click in single shop page
-    $(".thmb").click(function () {
-        var mainImg = $(".imgth").attr('src');
-        $(".imgth").attr('src', `${this.src}`);
+    $(".thumb").click(function () {
+        console.log("kjb");
+        var mainImg = $("#show-img").attr('src');
+        $("#show-img").attr('src', `${this.src}`);
         this.src = mainImg;
     });
 
