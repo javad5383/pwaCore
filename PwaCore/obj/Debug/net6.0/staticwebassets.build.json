@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x4Cn5AzQFr5IXTbcBIvt/b3w37qF9WZcYhlR84oYYlw=",
+  "Hash": "JKzxogrYAYDlUqqGfrZTdxl5JWi9lTWhftPoTRVSuQQ=",
   "Source": "PwaCore",
   "BasePath": "_content/PwaCore",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\fontawesome.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\jquery.easy_slides.css",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "css/jquery.easy_slides.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jquery.easy_slides.css"
     },
     {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\slick.min.css",
@@ -2412,6 +2429,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\jquery.easy_slides.js",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "js/jquery.easy_slides.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.easy_slides.js"
     },
     {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\jquery-1.11.0.min.js",

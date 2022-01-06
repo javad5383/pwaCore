@@ -33,11 +33,14 @@ namespace PwaCore.Controllers
         public IActionResult Shop()
         {
             var prod = _productService.GetProducts();
+            
             return View(prod.ToList());
         }
         public IActionResult ShopSingle(int productId)
         {
             var pro=_productService.GetProductById(productId);
+            
+            
             return View(pro);
         }
 
