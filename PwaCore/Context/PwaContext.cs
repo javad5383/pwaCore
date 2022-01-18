@@ -16,6 +16,7 @@ namespace PwaCore.Context
         }
 
         public DbSet<Products> Products { get; set; }
+        public DbSet<Users> Users { get; set; }
        
     }
 }

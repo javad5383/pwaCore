@@ -54,10 +54,23 @@ namespace PwaCore.Services.Class
                     imgs.Add(proImg);
                    
                     
-                }
-                 _context.AddRange(imgs);
+                } 
+                _context.AddRange(imgs);
                 _context.SaveChanges();
             }
+        }
+
+        public void AddUser(AccountViewModel user)
+        {
+            Users newUser=new()
+            {
+                Email = user.Email,
+                Password = user.Password,
+                Name = user.Name,
+                PhoneNumber = user.PhoneNumber
+            };
+            _context.Users.Add(newUser);
+            _context.SaveChanges();
         }
 
         public Products? GetProductById(int productId)

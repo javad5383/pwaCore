@@ -11,10 +11,8 @@ namespace PwaCore.Controllers
 {
     public class HomeController : Controller
     {
-        string merchant = "424baadf-ea4c-4744-b29e-5eb62a855821";
-        string amount = "1100";
-        string authority;
-        string description = "خرید تستی ";
+       
+        
         string callbackurl = "http://localhost:5008/Home/VerifyPayment";
 
         private readonly ILogger<HomeController> _logger;
@@ -30,6 +28,7 @@ namespace PwaCore.Controllers
         {
             return View();
         }
+        
         public IActionResult About()
         {
             return View();

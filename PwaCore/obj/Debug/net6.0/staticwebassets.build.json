@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dm+ELyKgbDEDKwCgQOSvIgFCFHIWgUAzCA/i11BLa0s=",
+  "Hash": "P/M2djrmEenysyP6YyjtLlpisBcAIsvkyjydVZ1hpys=",
   "Source": "PwaCore",
   "BasePath": "_content/PwaCore",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\Cart.css",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "css/Cart.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Cart.css"
+    },
+    {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\custom.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
@@ -185,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\jquery.easy_slides.css"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\Login.css",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "css/Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\slick.min.css",
@@ -1069,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\b05198f0-37cb-4703-96c8-d95c6a7a68baهودی-مردانه-0089-زیتونی-8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\baner1.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/baner1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\baner1.png"
     },
     {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\banerimg1.png",

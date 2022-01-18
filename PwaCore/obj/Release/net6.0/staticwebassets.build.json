@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0+mSZbN4EpBUHk4bh1R5puuK9726ku6ICXj33fKk/KA=",
+  "Hash": "L/WNnzqWZihggOSzYINWltM+7Fda02MjFGpfmtqWZ1g=",
   "Source": "PwaCore",
   "BasePath": "_content/PwaCore",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\jquery.easy_slides.css"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\Login.css",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "css/Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\slick.min.css",

@@ -8,5 +8,7 @@ namespace PwaCore.Services.Interface
 
         Products? GetProductById(int productId);
         void AddProduct(Products product,IFormFile mainImg,List<IFormFile> images);
+
+        void AddUser(AccountViewModel user);
     }
 }

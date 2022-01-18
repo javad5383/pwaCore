@@ -1,0 +1,45 @@
+﻿
+.Summary {
+    background-color: #f2f2f2;
+    margin-top: 65px;
+}
+
+.my-cart {
+    max-width: 90%;
+    margin-bottom: 300px;
+}
+
+footer {
+    background-color: #e9eef5
+}
+
+.box-head {
+    height: 50px;
+}
+
+.ptop {
+    padding-top: 20px;
+}
+
+.pbot {
+    padding-bottom: 10px;
+}
+
+.img {
+    width: 50%;
+    height: 150px;
+}
+.bold {
+    font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+    .col-xs-4 {
+        width: 25%
+    }
+    .col-xs-12 {
+        width: 100%
+    }
+    .col-xs-1 {
+        width: 8.333%
+    }
+}
