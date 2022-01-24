@@ -10,5 +10,9 @@ namespace PwaCore.Services.Interface
         void AddProduct(Products product,IFormFile mainImg,List<IFormFile> images);
 
         void AddUser(AccountViewModel user);
+
+        Users? GetUser(string userInput);
+
+        bool IsExistEmail (string email);
     }
 }

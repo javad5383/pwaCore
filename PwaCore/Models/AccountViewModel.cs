@@ -18,9 +18,14 @@ namespace PwaCore.Models
         [Required(ErrorMessage = "لطفا پسورد را وارد کنید")]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "لطفا پسورد را وارد کنید")]
+        [Required(ErrorMessage = "لطفا  تکرار پسورد را وارد کنید")]
         [Compare("Password", ErrorMessage = "پسورد وارد شده با تکرار آن مغایرت دارد")]
         public string RePassword { get; set; }
+
+        public bool RememberMe { get; set; }
+
+        [Required(ErrorMessage = "لطفا ایمیل یا  شماره تلفن را وارد کنید")]
+        public string EmailOrPhone { get; set; } 
     }
 
 

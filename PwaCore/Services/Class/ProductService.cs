@@ -73,15 +73,28 @@ namespace PwaCore.Services.Class
             _context.SaveChanges();
         }
 
+        public Users? GetUser(string userInput)
+        {
+            if (!string.IsNullOrEmpty(userInput))
+            {
+                return _context.Users.SingleOrDefault(u => u.Email == userInput || u.PhoneNumber == userInput);
+            }
+
+            return null;
+        }
+
+        public bool IsExistEmail(string email)
+        {
+           return _context.Users.Any(u=>u.Email==email);
+        }
+
         public Products? GetProductById(int productId)
         {
             var pro = _context.Products
                 .Include(i => i.ProductImages)
                 .SingleOrDefault(p => p.Id == productId);
             return pro;
-
-                
-              
+            
         }
 
         public IEnumerable<Products> GetProducts()

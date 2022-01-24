@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using PwaCore.Context;
 using PwaCore.Services.Class;
@@ -13,7 +14,20 @@ builder.Services.AddDbContext<PwaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("PWAConnection"));
 });
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 
+}).AddCookie(options =>
+{
+    options.LoginPath = "/Account";
+    options.LogoutPath = "/Account/Logout";
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(43200);
+
+
+});
 
 var app = builder.Build();
 
@@ -24,7 +38,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
