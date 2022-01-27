@@ -1,74 +1,104 @@
-﻿<link rel="stylesheet" href="/css/Cart.css"/>
-<div class="container-fluid my-cart ">
-    <div class="row">
-        <div class="col-lg-8 col-md-12 col-sm-12 col-xl-8 align-self-start">
-            <div class="mt-5">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            
-                            <th class="col-sm-4 col-md-3 col-xs-4" ></th>
-                            <th class="col-sm-5 col-md-5 pt-5">نام</th>
-                            <th class="col-sm-1 col-md-1 col-xs-1 pt-5">تعداد</th>
-                            <th class="col-sm-3 col-md-3 pt-5">قیمت واحد</th>
-                            
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                           
-                            <td class="col-sm-4 col-md-3 col-lg-3 col-md-3 col-xs-4"><img class="img-thumbnail col-xs-12 col-lg-12 img col-sm-12 col-md-10" src="/img/0698ba42-505d-4675-bf0e-85cdaa01cc80کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-بغل.jpg"/></td>
-                            <td class="col-sm-5 col-md-5 col-lg-5 pt-5 bold">کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی</td>
-                            <td class="col-sm-1 col-md-1 col-xl-1 col-xs-1 bold pt-5">2</td>
-                            <td class="col-sm-3 col-md-3 bold pt-5">1200000</td>
-                            
-                        </tr>
-                    <tr>
-                           
-                        <td class="col-sm-4 col-md-3 col-lg-3 col-xs-4"><img class="img-thumbnail img col-sm-12 col-xs-12"  src="/img/097b7816-b21b-4acb-a424-750eee45fc3fپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-پشت.jpg"/></td>
-                        <td class="col-sm-5 col-md-5 bold col-lg-5 pt-5">کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی</td>
-                        <td class="col-sm-1 col-md-1 bold col-xs-1 pt-5">2</td>
-                        <td class="col-sm-3 col-md-3 bold pt-5">1200000</td>
-                            
-                    </tr>
+﻿@model Cart
 
-                    </tbody>
-                </table>
+<link rel="stylesheet" href="/css/Cart.css" />
+@if (Model == null)
+{
+    <div class="container-fluid my-cart ">
+        <div class="row">
+            <div class="col-12">
+                <div class="mt-5">
+                    <div class="jumbotron alert-warning text-center">
+                        <h1 class="display-4 pt-5 ">سبد خرید شما خالی است</h1>
+                        
+                        <hr class="mt-5 mb-5">
+                        <p class="lead">
+                            <a class="btn btn-outline-primary btn-lg" href="/home/shop" role="button">بازگشت به فروشگاه</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-
-        </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xl-4 ">
-            <div class="Summary ">
-                <div class="mt-5 box-head ">
-                    
-                        <h5  class="text-center ptop "><b>فاکتور خرید</b></h5>
-                   
-                   
-                </div>
-              
-                <hr/>
-                <div class="d-flex text-center ">
-                    <div class="col"> تعداد </div>
-                    <div class="col ">3 </div>
-                </div>
-           
-                <div class="d-flex text-center " style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                    <div class="col">TOTAL PRICE</div>
-                    <div class="col text-right">1000 تومان</div>
-                </div> 
-                <div class="  pbot text-center ">
-                     <button class="btn btn-success ">CHECKOUT</button>
-                </div>
-               
-            </div>
-
-
-
         </div>
     </div>
+}
+else
+{
+    <div class="container-fluid my-cart ">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xl-8 align-self-start">
+                <div class="mt-5">
+                    <table class="table">
+                        <thead>
+                            <tr>
 
-</div>
+                                <th class="col-sm-4 col-md-3 col-xs-4"></th>
+                                <th class="col-sm-5 col-md-5 pt-5">نام</th>
+                                <th class="col-sm-1 col-md-1 col-xs-1 pt-5">تعداد</th>
+                                <th class="col-sm-3 col-md-3 pt-5">قیمت واحد</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.CartDetails)
+                            {
+                                <tr>
+
+                                    <td class="col-sm-4 col-md-3 col-lg-3 col-md-3 col-xs-4"><img class="img-thumbnail col-xs-12 col-lg-12 img col-sm-12 col-md-10" src="/img/@item.Product.MainImg" /></td>
+                                    <td class="col-sm-5 col-md-5 col-lg-5 pt-5 bold">@item.Product.Name</td>
+                                    <td class="col-sm-1 col-md-1 col-xl-1 col-xs-1 bold pt-5">@item.Quantity</td>
+                                    <td class="col-sm-3 col-md-3 bold pt-5">@item.Price</td>
+
+                                </tr>
+                            }
+
+                            @*<tr>
+
+                                <td class="col-sm-4 col-md-3 col-lg-3 col-xs-4"><img class="img-thumbnail img col-sm-12 col-xs-12"  src="/img/097b7816-b21b-4acb-a424-750eee45fc3fپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-پشت.jpg"/></td>
+                                <td class="col-sm-5 col-md-5 bold col-lg-5 pt-5">کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی</td>
+                                <td class="col-sm-1 col-md-1 bold col-xs-1 pt-5">2</td>
+                                <td class="col-sm-3 col-md-3 bold pt-5">1200000</td>
+
+                                </tr>*@
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xl-4 ">
+                <div class="Summary ">
+                    <div class="mt-5 box-head ">
+
+                        <h5 class="text-center ptop "><b>فاکتور خرید</b></h5>
+
+
+                    </div>
+
+                    <hr />
+                    <div class="d-flex text-center ">
+                        <div class="col"> تعداد </div>
+                        <div class="col ">3 </div>
+                    </div>
+
+                    <div class="d-flex text-center " style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                        <div class="col">TOTAL PRICE</div>
+                        <div class="col text-right">1000 تومان</div>
+                    </div>
+                    <div class="  pbot text-center ">
+                        <button class="btn btn-success ">CHECKOUT</button>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+}
+
+
 <style>
-    
+
 </style>

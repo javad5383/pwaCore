@@ -4,16 +4,18 @@ using PwaCore.Services.Interface;
 using System.Diagnostics;
 using System.IO.Pipes;
 using System.Net.Http.Headers;
+using System.Security.Claims;
 using System.Text.Encodings.Web;
+using Microsoft.AspNetCore.Authorization;
 using ZarinpalSandbox;
 
 namespace PwaCore.Controllers
 {
     public class HomeController : Controller
     {
-       
+
         
-        string callbackurl = "http://localhost:5008/Home/VerifyPayment";
+       readonly string callbackurl = "http://localhost:5008/Home/VerifyPayment";
 
         private readonly ILogger<HomeController> _logger;
         private readonly IProductService _productService;
@@ -23,7 +25,7 @@ namespace PwaCore.Controllers
             _productService = productService;
             _logger = logger;
         }
-
+        
         public IActionResult Index()
         {
             return View();
@@ -33,11 +35,31 @@ namespace PwaCore.Controllers
         {
             return View();
         }
+        [Authorize]
         public IActionResult Cart()
         {
+            int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var cart = _productService.GetCart(userId);
+            if (cart!=null)
+            {
+                return View(cart);
+            }
+
             return View();
+
         }
 
+        [Authorize]
+        public IActionResult AddToCart(int productId,string quantity)
+        {
+            if (productId==0||string.IsNullOrEmpty(quantity))
+            {
+                return NotFound();
+            }
+            int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            _productService.AddToCart(userId, productId, int.Parse(quantity));
+            return RedirectToAction("Cart");
+        }
         public IActionResult Payment()
         {
             try

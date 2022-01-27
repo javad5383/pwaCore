@@ -1,17 +1,13 @@
 ﻿@model Products
-@{
-    
- 
-}
 
-<section class="bg-light">
+  <section class="bg-light">
     <div class="container pb-5">
         <div class="row">
             <div class="col-lg-5 mt-5">
                 <div class="w-100" href="1.jpg">
                     <img class="img-thumbnail carouse imgth" src="/img/@Model.MainImg" id="show-img">
                 </div>
-                <div id="crsl"  class="w-100 row  slider slider_four_in_line text-center">
+                <div id="crsl" class="w-100 row  slider slider_four_in_line text-center">
                     @foreach (var item in Model.ProductImages)
                     {
                         <div id="carouselDiv" class="border">
@@ -39,14 +35,7 @@
                             <i class="fa fa-star text-secondary"></i>
                             <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
                         </p>
-                        @* <ul class="list-inline">
-                            <li class="list-inline-item">
-                            <h6>Brand:</h6>
-                            </li>
-                            <li class="list-inline-item">
-                            <p class="text-muted"><strong>Easy Wear</strong></p>
-                            </li>
-                            </ul>*@
+
 
 
                         <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
@@ -58,61 +47,52 @@
                                 <p class="text-muted"><strong>سورمه‌ای / مشکی</strong></p>
                             </li>
                         </ul>
-
-                        @*  <h6>Specification:</h6>
-                            <ul class="list-unstyled pb-3">
-                            <li>Lorem ipsum dolor sit</li>
-                            <li>Amet, consectetur</li>
-                            <li>Adipiscing elit,set</li>
-                            <li>Duis aute irure</li>
-                            <li>Ut enim ad minim</li>
-                            <li>Dolore magna aliqua</li>
-                            <li>Excepteur sint</li>
-                            </ul>*@
-
-                        <form action="" method="GET">
-                            <input type="hidden" name="product-title" value="Activewear">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <ul class="list-inline pb-3">
-                                        <li class="list-inline-item">
-                                            سایز:
-                                            <input type="hidden" name="product-size" id="product-size" value="S">
-                                        </li>
-                                        <li class="list-inline-item"><span class="btn btn-success btn-size">S</span></li>
-                                        <li class="list-inline-item"><span class="btn btn-success btn-size">M</span></li>
-                                        <li class="list-inline-item"><span class="btn btn-success btn-size">L</span></li>
-                                        <li class="list-inline-item"><span class="btn btn-success btn-size">XL</span></li>
-                                    </ul>
-                                </div>
-                                <div class="col-auto">
-                                    <ul class="list-inline pb-3">
-                                        <li class="list-inline-item text-right">
-                                            تعداد:
-                                            <input type="hidden" name="product-quanity" id="product-quanity" value="1">
-                                        </li>
-                                        <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
-                                        <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
-                                        <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
-                                    </ul>
-                                </div>
+                        <form asp-action="AddToCart">
+                        <div class="row">
+                            
+                            <div class="col-auto">
+                                <ul class="list-inline pb-3">
+                                    <li class="list-inline-item">
+                                        سایز:
+                                           
+                                    </li>
+                                    <li class="list-inline-item"><span class="btn btn-success btn-size">S</span></li>
+                                    <li class="list-inline-item"><span class="btn btn-success btn-size">M</span></li>
+                                    <li class="list-inline-item"><span class="btn btn-success btn-size">L</span></li>
+                                    <li class="list-inline-item"><span class="btn btn-success btn-size">XL</span></li>
+                                </ul>
                             </div>
-                            <div class="row pb-3">
-
-                                <div class="col d-grid">
-                                    <button type="submit" class="btn btn-success btn-small" name="submit" value="addtocard">افرودن به سبد خرید:</button>
-                                </div>
+                            
+                            <div class="col-auto">
+                                <ul class="list-inline pb-3">
+                                    <li class="list-inline-item text-right">
+                                        تعداد:
+                                           
+                                    </li>
+                                    <li class="list-inline-item"><span class="btn btn-success  change" id="btn-minus1">-</span></li>
+                                    <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                    <li class="list-inline-item "><span class="btn btn-success change" id="btn-plus1">+</span></li>
+                                </ul>
                             </div>
+                            <button type="submit"  class="btn-success btn-sm   ">افرودن به سبد خرید</button>
+                            <input type="hidden" id="quantity" name="quantity"/>
+                            <input type="hidden" id="ip" name="productId" value="@Model.Id" />
+
+                           
+                                
+
+                        </div>
                         </form>
+                    </div>         
+                       
 
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Close Content -->
-<!-- Start Article -->
+
 <section class="py-5">
     <div class="container">
         <div class="row text-left p-2 pb-3">
@@ -121,7 +101,7 @@
 
         <!--Start Carousel Wrapper-->
         <div class="row jm">
-           
+
             <div class="col-md-3">
                 <div class="product-wap card rounded-0">
                     <div class="card rounded-0">
@@ -159,12 +139,44 @@
                     </div>
                 </div>
             </div>
-           
+
 
 
         </div>
 
     </div>
 </section>
+  
 
 
+<script>
+        //single shop quantity
+
+
+
+        var val = document.getElementById("var-value");
+        var valInt = parseInt(val.innerText);
+        var inp = document.getElementById("quantity");
+        inp.value = valInt;
+    document.getElementById("btn-minus1").onclick = function() {
+        if (valInt===1) {
+            return;
+        }
+        valInt--;
+        val.innerText = valInt;
+        inp.value = valInt;
+        console.log(valInt,inp.value = valInt);
+
+    }
+
+
+
+
+        document.getElementById("btn-plus1").onclick = function() {
+            valInt++;
+            val.innerText = valInt;
+            inp.value = valInt;
+            console.log(valInt,inp.value);
+        }
+
+</script>

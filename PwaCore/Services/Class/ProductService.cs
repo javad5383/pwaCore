@@ -18,7 +18,7 @@ namespace PwaCore.Services.Class
         {
             if (mainImg != null)
             {
-                var fileName = Guid.NewGuid()+mainImg.FileName;
+                var fileName = Guid.NewGuid() + mainImg.FileName;
 
                 var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
 
@@ -26,19 +26,19 @@ namespace PwaCore.Services.Class
 
                 mainImg.CopyTo(stream);
                 product.MainImg = fileName;
-               
+
             }
-            
+
             _context.Add(product);
-             _context.SaveChanges();
-        
+            _context.SaveChanges();
+
 
             if (images != null)
             {
-                var imgs=new List<ProductImages>();
+                var imgs = new List<ProductImages>();
                 foreach (var item in images)
                 {
-                    var fileName = Guid.NewGuid()+ item.FileName;
+                    var fileName = Guid.NewGuid() + item.FileName;
 
                     var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
 
@@ -47,14 +47,14 @@ namespace PwaCore.Services.Class
                     item.CopyTo(stream);
                     var proImg = new ProductImages()
                     {
-                        ImgName = fileName ,
+                        ImgName = fileName,
                         ProductId = product.Id
-                        
+
                     };
                     imgs.Add(proImg);
-                   
-                    
-                } 
+
+
+                }
                 _context.AddRange(imgs);
                 _context.SaveChanges();
             }
@@ -62,7 +62,7 @@ namespace PwaCore.Services.Class
 
         public void AddUser(AccountViewModel user)
         {
-            Users newUser=new()
+            Users newUser = new()
             {
                 Email = user.Email,
                 Password = user.Password,
@@ -85,7 +85,15 @@ namespace PwaCore.Services.Class
 
         public bool IsExistEmail(string email)
         {
-           return _context.Users.Any(u=>u.Email==email);
+            return _context.Users.Any(u => u.Email == email);
+        }
+
+        public Cart GetCart(int userId)
+        {
+            return _context.Cart
+                .Include(d=>d.CartDetails)
+                .ThenInclude(p=>p.Product)
+                .FirstOrDefault(c => c.UserId == userId && !c.IsFinally)!;//!=> for stop warning
         }
 
         public Products? GetProductById(int productId)
@@ -94,7 +102,7 @@ namespace PwaCore.Services.Class
                 .Include(i => i.ProductImages)
                 .SingleOrDefault(p => p.Id == productId);
             return pro;
-            
+
         }
 
         public IEnumerable<Products> GetProducts()
@@ -102,5 +110,69 @@ namespace PwaCore.Services.Class
             return _context.Products;
         }
 
+        public Cart AddToCart(int userId, int productId, int quantity)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+            var product = _context.Products.FirstOrDefault(p => p.Id == productId);
+
+            if (user != null && product != null && quantity != 0)
+            {
+                var cart = _context.Cart.FirstOrDefault(c => c.UserId == user.Id && !c.IsFinally);
+                if (cart == null)
+                {
+                    Cart newCart = new()
+                    {
+                        UserId = userId
+                    };
+                    _context.Cart.Add(newCart);
+                    _context.SaveChanges();
+                    var newCartDetail = new CartDetail()
+                    {
+                        CartId = newCart.Id,
+                        ProductId = product.Id,
+                        Quantity = quantity,
+                        Price = product.Price
+                    };
+                    newCart.TotalPrice = product.Price;
+                    newCart.TotalQuantity = quantity;
+                    _context.CartDetails.Add(newCartDetail);
+                    _context.SaveChanges();
+
+
+
+                }
+                else
+                {
+                    var cartDetail = _context.CartDetails
+                        .FirstOrDefault(c => c.CartId == cart.Id && c.ProductId == product.Id);
+                    if (cartDetail != null)
+                    {
+                        cartDetail.Quantity+=quantity;
+                        cartDetail.Price = product.Price*quantity;
+                        _context.SaveChanges();
+                    }
+                    else
+                    {
+                        CartDetail newCartDetail = new()
+                        {
+                            CartId = cart.Id,
+                            ProductId = productId,
+                            Quantity = quantity,
+                            Price = product.Price
+                        };
+                        _context.CartDetails.Add(newCartDetail);
+                        _context.SaveChanges();
+                    }
+
+
+                }
+
+                return cart;
+
+            }
+
+
+            return null;
+        }
     }
 }
