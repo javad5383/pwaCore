@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\PwaCore.csproj": {}
+    "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\PwaCore.csproj": {
+    "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\PwaCore.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj",
         "projectName": "PwaCore",
-        "projectPath": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\PwaCore.csproj",
+        "projectPath": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj",
         "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\publish\\win-x64\\",
+        "outputPath": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",

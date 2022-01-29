@@ -1,6 +1,22 @@
 /*
 Custom Css
 */
+
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url('/fonts/fonts/eot/IRANSansWeb.eot') format('eot'),
+         url('/fonts/fonts/ttf/IRANSansWeb.ttf') format('ttf'), 
+         url('/fonts/fonts/woff/IRANSansWeb.woff') format('woff'),
+         url('/fonts/fonts/woff2/IRANSansWeb.woff2') format('woff2');
+    
+   
+}
+
+
+body {
+    direction: rtl;
+    font-family: 'IRANSans' !important;
+}
 .Jbanner {
   background-color: #10d88f;
   border: none;

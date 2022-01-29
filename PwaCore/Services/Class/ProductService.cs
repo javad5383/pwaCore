@@ -2,6 +2,7 @@
 using PwaCore.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using Microsoft.AspNetCore.SignalR;
 using PwaCore.Services.Interface;
 
 namespace PwaCore.Services.Class
@@ -184,6 +185,12 @@ namespace PwaCore.Services.Class
 
 
             return null;
+        }
+
+        public void FinishPayment(int userId,int cartId)
+        {
+            _context.Cart.FirstOrDefault(c => c.UserId == userId && c.Id == cartId)!.IsFinally=true;
+            _context.SaveChanges();
         }
     }
 }

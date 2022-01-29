@@ -7,7 +7,7 @@
         <div class="alert alert-success text-center">
             پرداخت با موفقیت انجام شد😊
             <hr/>
-            کد پیگیری:@ViewBag.auth
+            کد پیگیری:@(long.Parse(ViewBag.auth))
         </div>
     }
     else
@@ -15,7 +15,7 @@
         <div class="alert alert-danger text-center">
             پرداخت با خظا مواجه شد😳
             <hr/>
-            کد پیگیری:@ViewBag.auth
+            کد پیگیری:@(long.Parse(ViewBag.auth))
         </div>
     }
     

@@ -8,73 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PwaCore
 build_property.RootNamespace = PwaCore
-build_property.ProjectDir = C:\Users\mohammad\source\repos\PwaCore\PwaCore\
+build_property.ProjectDir = C:\Users\mohammad\source\repos\pwaCore\PwaCore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mohammad\source\repos\PwaCore\PwaCore
+build_property.MSBuildProjectDirectory = C:\Users\mohammad\source\repos\pwaCore\PwaCore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Admin/AddProduct.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Admin/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Home/About.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Home/Cart.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Home/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Home/Contact.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Home/Index.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Home/Shop.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Home/ShopSingle.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Home/ShopSingle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wU2luZ2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Home/VerifyPayment.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Home/VerifyPayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZnlQYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Shared/Error.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Shared/_footer.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Shared/_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Shared/_head.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Shared/_head.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Shared/_header.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Shared/_header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Shared/_scripts.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Shared/_scripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zY3JpcHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/_ViewImports.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/_ViewStart.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mohammad/source/repos/PwaCore/PwaCore/Views/Shared/_Layout.cshtml]
+[C:/Users/mohammad/source/repos/pwaCore/PwaCore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n6ecdu2u34

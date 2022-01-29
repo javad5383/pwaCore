@@ -18,5 +18,6 @@ namespace PwaCore.Services.Interface
         Cart GetCart(int userId);
 
         Cart AddToCart(int userId, int productId,int quantity);
+        void FinishPayment(int userId,int cartId);
     }
 }

@@ -64,11 +64,15 @@ namespace PwaCore.Controllers
         {
             try
             {
-                var payment = new Payment(1000000);
+                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var userEmail =User.FindFirstValue(ClaimTypes.Email);
+                var userPhoneNumber = User.FindFirstValue(ClaimTypes.MobilePhone);
+                var amount = _productService.GetCart(userId).TotalPrice;
+                var payment = new Payment((int)amount);
 
-                var res = payment.PaymentRequest("خرید اینترنتب", callbackurl,
-                    "javad.mohammadi5383@gmail.com",
-                    "09383555383");
+                var res = payment.PaymentRequest("خرید اینترنتی", callbackurl,
+                    userEmail,
+                    userPhoneNumber);
 
                 if (res.Result.Status == 100)
                 {
@@ -84,28 +88,33 @@ namespace PwaCore.Controllers
             return NotFound();
 
         }
-
+        [Authorize]
         public IActionResult VerifyPayment()
         {
             if (HttpContext.Request.Query["Status"] != "" &&
                 HttpContext.Request.Query["Status"].ToString().ToLower() == "ok"
                 && HttpContext.Request.Query["Authority"] != "")
             {
+                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var cart = _productService.GetCart(userId);
                 string authority = HttpContext.Request.Query["Authority"];
-                var payment = new Payment(1000000);
+                var payment = new Payment((int)cart.TotalPrice);
                 var res = payment.Verification(authority).Result;
 
                 if (res.Status == 100)
                 {
+                    _productService.FinishPayment(userId,cart.Id);
                     ViewBag.auth = authority;
                     ViewBag.status = "OK";
 
                     return View();
 
                 }
+               
             }
             else
             {
+                ViewBag.auth = HttpContext.Request.Query["Authority"];
                 ViewBag.status = "NOK";
 
                 return View();
