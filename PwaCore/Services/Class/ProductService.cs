@@ -150,6 +150,14 @@ namespace PwaCore.Services.Class
                         cartDetail.Quantity+=quantity;
                         cartDetail.Price = product.Price*quantity;
                         _context.SaveChanges();
+                        cart.TotalPrice = _context.CartDetails
+                            .Where(cd => cd.CartId == cart.Id)
+                            .Sum(p => p.Price);
+                       
+                        cart.TotalQuantity = _context.CartDetails
+                            .Where(cd => cd.CartId == cart.Id)
+                            .Sum(q => q.Quantity);
+                        _context.SaveChanges();
                     }
                     else
                     {
@@ -160,12 +168,15 @@ namespace PwaCore.Services.Class
                             Quantity = quantity,
                             Price = product.Price
                         };
+                        cart.TotalPrice += newCartDetail.Price;
+                        cart.TotalQuantity += newCartDetail.Quantity;
                         _context.CartDetails.Add(newCartDetail);
                         _context.SaveChanges();
                     }
 
 
                 }
+                
 
                 return cart;
 
