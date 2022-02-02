@@ -28,6 +28,8 @@ namespace PwaCore.Controllers
         
         public IActionResult Index()
         {
+           /*ViewBag.randomProducts=*/ 
+           ViewData["random"]=_productService.GetRandomProducts();
             return View();
         }
         
@@ -136,8 +138,8 @@ namespace PwaCore.Controllers
         public IActionResult ShopSingle(int productId)
         {
             var pro=_productService.GetProductById(productId);
-            
-            
+            ViewData["random"] = _productService.GetRandomProducts();
+
             return View(pro);
         }
 

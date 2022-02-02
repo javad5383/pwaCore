@@ -92,8 +92,8 @@ namespace PwaCore.Services.Class
         public Cart GetCart(int userId)
         {
             return _context.Cart
-                .Include(d=>d.CartDetails)
-                .ThenInclude(p=>p.Product)
+                .Include(d => d.CartDetails)
+                .ThenInclude(p => p.Product)
                 .FirstOrDefault(c => c.UserId == userId && !c.IsFinally)!;//!=> for stop warning
         }
 
@@ -148,13 +148,13 @@ namespace PwaCore.Services.Class
                         .FirstOrDefault(c => c.CartId == cart.Id && c.ProductId == product.Id);
                     if (cartDetail != null)
                     {
-                        cartDetail.Quantity+=quantity;
-                        cartDetail.Price = product.Price*quantity;
+                        cartDetail.Quantity += quantity;
+                        cartDetail.Price = product.Price * quantity;
                         _context.SaveChanges();
                         cart.TotalPrice = _context.CartDetails
                             .Where(cd => cd.CartId == cart.Id)
                             .Sum(p => p.Price);
-                       
+
                         cart.TotalQuantity = _context.CartDetails
                             .Where(cd => cd.CartId == cart.Id)
                             .Sum(q => q.Quantity);
@@ -177,7 +177,7 @@ namespace PwaCore.Services.Class
 
 
                 }
-                
+
 
                 return cart;
 
@@ -187,10 +187,21 @@ namespace PwaCore.Services.Class
             return null;
         }
 
-        public void FinishPayment(int userId,int cartId)
+        public void FinishPayment(int userId, int cartId)
         {
-            _context.Cart.FirstOrDefault(c => c.UserId == userId && c.Id == cartId)!.IsFinally=true;
+            _context.Cart.FirstOrDefault(c => c.UserId == userId && c.Id == cartId)!.IsFinally = true;
             _context.SaveChanges();
+        }
+
+        public List<Products> GetRandomProducts()
+        {
+            var countProducts = _context.Products.Count();
+            var randomSkip = new Random();
+            var skip = randomSkip.Next(0, countProducts - 5);
+
+            return _context.Products.Skip(skip).Take(4).ToList();
+
+            
         }
     }
 }

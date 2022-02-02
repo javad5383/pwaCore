@@ -1,70 +1,73 @@
-﻿  
- 
+﻿
+
 
 
 <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-           
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="جستجو ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="w-100 pt-1 mb-5 text-right">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+
+        <div class="input-group mb-2">
+            <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="جستجو ...">
+            <button type="submit" class="input-group-text bg-success text-light">
+                <i class="fa fa-fw fa-search text-white"></i>
+            </button>
+        </div>
+
     </div>
+</div>
 
 
-<nav style="display: block" class="navbar navbar-expand-lg  navbar-light shadow">
-    <div class=" d-flex">
+<nav class="navbar navbar-expand-lg  navbar-light shadow">
+   <div class="container-fluid d-sm-block d-mymd-block d-lg-flex">
+        <div>
+            <a class="navbar-brand " href="/">
+                <img class="logo" src="/img/icons/hh@4x 1.png"/>
+            </a>
+        </div>
+        <div>
+            <button  class="  navbar-toggler  border-0 margin-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+       
 
-        <a class="navbar-brand  logo" href="/">
-            <img  style="width: 70%" src="/img/icons/hh@4x 1.png"/>
-        </a>
-
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+        <div class="collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
              id="templatemo_main_nav">
-            <div class="flex-fill">
-                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">صفحه اصلی</a>
-                    </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="/home/shop">فروشگاه</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/home/about">درباره ما</a>
-                    </li>
-                  
-                    <li class="nav-item">
-                        <a class="nav-link" href="/home/contact">تماس با ما</a>
-                    </li>
-                   
-                </ul>
-            </div>
 
-            <div  class="navbar m-5 align-self-start d-flex">
+            <ul class="navbar-nav  mb-2 mb-lg-0 mr-md-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">صفحه اصلی</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/home/shop">فروشگاه</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/home/about">درباره ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/home/contact">تماس با ما</a>
+                </li>
+
+            </ul>
+
+
+            <div class="navbar m-5 align-self-start d-flex">
                 @if (User.Identity!.IsAuthenticated)
                 {
                     <a id="" class="nav-icon position-relative text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="خروج از حساب کاربری" href="/account/Logout">
                         <i class="fa fa-fw fa-user-alt-slash text-dark mr-3"></i>
-                    </a> 
+                    </a>
                 }
                 else
                 {
                     <a id="" class="nav-icon position-relative text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="ورود/ثبت‌نام" href="/account">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                    </a> 
+                    </a>
                 }
                 <a id="installBtn" class="nav-icon position-relative text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="نصب برنامه" href="#">
                     <i class="fa fa-fw fa-plus text-dark mr-3"></i>
@@ -83,12 +86,13 @@
                 </a>
                 <a class="nav-icon position-relative text-decoration-none" href="/home/cart">
                     <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                   @* <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>*@
+                    @* <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>*@
                 </a>
 
 
             </div>
         </div>
 
-    </div>
+   </div>
 </nav>
+

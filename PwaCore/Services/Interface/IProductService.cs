@@ -19,5 +19,6 @@ namespace PwaCore.Services.Interface
 
         Cart AddToCart(int userId, int productId,int quantity);
         void FinishPayment(int userId,int cartId);
+        List<Products> GetRandomProducts();
     }
 }

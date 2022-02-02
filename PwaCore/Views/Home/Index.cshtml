@@ -116,94 +116,33 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-3 mb-4">
-                    <div class="card h-100">
-                        <a href="/home/shopSingle">
-                            <img src="/img/Group 211.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$240.00</li>
-                            </ul>
-                            <a href="/home/shopSingle" class="h2 text-decoration-none text-dark">ورزشی</a>
-                           
-                            <p class="text-muted">Reviews (24)</p>
+                @foreach (var product in ( ViewData["random"] as List<Products>)!)
+                {
+                    <div class="col-12 col-md-3 mb-4">
+                        <div class="card h-100">
+                            <a href="/home/shopSingle?productId=@product.Id">
+                                <img src="/img/@product.MainImg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <ul class=" list-unstyled  justify-content-between">
+                                    <li class="d-flex">
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                    <li class="text-muted text-right">@product.Price تومان</li>
+                                </ul>
+                                <a href="/home/shopSingle" class="h3  text-decoration-none text-dark">@product.Name</a>
+
+                                <p class="text-muted">Reviews (24)</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3 mb-4">
-                    <div class="card h-100">
-                        <a href="/home/shopSingle">
-                            <img src="/img/Group 212.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$240.00</li>
-                            </ul>
-                            <a href="/home/shopSingle" class="h2 text-decoration-none text-dark">ورزشی</a>
-                           
-                            <p class="text-muted">Reviews (24)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 mb-4">
-                    <div class="card h-100">
-                        <a href="/home/shopSingle">
-                            <img src="/img/Group 213.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$480.00</li>
-                            </ul>
-                            <a href="/home/shopSingle" class="h2 text-decoration-none text-dark">کفش نایکی</a>
-                          
-                            <p class="text-muted">Reviews (48)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 mb-4">
-                    <div class="card h-100">
-                        <a href="/home/shopSingle">
-                            <img src="/img/Group 214.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$360.00</li>
-                            </ul>
-                            <a href="/home/shopSingle" class="h2 text-decoration-none text-dark">کفش آدیداس</a>
-                           
-                            <p class="text-muted">Reviews (74)</p>
-                        </div>
-                    </div>
-                </div>
+                }
+                
+
             </div>
         </div>
     </section>
