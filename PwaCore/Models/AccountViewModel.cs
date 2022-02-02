@@ -8,7 +8,7 @@ namespace PwaCore.Models
         public string Name { get; set; }
 
         [Required(ErrorMessage = "لطفا ایمیل را وارد کنید")]
-        [DataType(DataType.EmailAddress, ErrorMessage = "ایمیل وارد شده اشتباه است")]
+        //[DataType(DataType.EmailAddress, ErrorMessage = "ایمیل وارد شده اشتباه است")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "لطفا شماره تلفن را وارد کنید")]
@@ -24,11 +24,14 @@ namespace PwaCore.Models
 
         public bool RememberMe { get; set; }
 
-        [Required(ErrorMessage = "لطفا ایمیل یا  شماره تلفن را وارد کنید")]
-        public string EmailOrPhone { get; set; } 
+        
     }
 
-
+    public class LoginViewModel
+    {
+    }
 
     
+
+
 }

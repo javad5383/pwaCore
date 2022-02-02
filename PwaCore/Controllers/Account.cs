@@ -38,16 +38,16 @@ namespace PwaCore.Controllers
             ViewBag.login = true; //برای اینکه در ویو متوجه شویم که باید به قسمت ورود ریدایرکت کنیم
 
             #region check phone and Email validation
-            if (string.IsNullOrEmpty(userInput.EmailOrPhone))
+            if (string.IsNullOrEmpty(userInput.Email))
             {
 
                 return View(userInput);
             }
             const string emailRegex = @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$";
-            bool isValidEmail = Regex.IsMatch(userInput.EmailOrPhone, emailRegex);
+            bool isValidEmail = Regex.IsMatch(userInput.Email, emailRegex);
 
             const string usaPhoneNumbersRegex = @"\(?\d{3}\)?-? *\d{3}-? *-?\d{4}";
-            bool isValidPhone = Regex.IsMatch(userInput.EmailOrPhone, usaPhoneNumbersRegex);
+            bool isValidPhone = Regex.IsMatch(userInput.Email, usaPhoneNumbersRegex);
 
             if (!isValidPhone && !isValidEmail)
             {
@@ -58,7 +58,7 @@ namespace PwaCore.Controllers
 
             #endregion
 
-            var user = _service.GetUser(userInput.EmailOrPhone);
+            var user = _service.GetUser(userInput.Email);
             if (user == null || user.Password != userInput.Password)
             {
                 ModelState.AddModelError("EmailOrPhone", "کاربر با مشخصات وارد شده یافت نشد ");
@@ -91,6 +91,7 @@ namespace PwaCore.Controllers
         [HttpPost]
         public IActionResult Register(AccountViewModel user)//attr name=asp-for...
         {
+            return View("Welcome");
             if (User.Identity!.IsAuthenticated)
             {
                 return Redirect("/");
@@ -116,22 +117,22 @@ namespace PwaCore.Controllers
                 ModelState.AddModelError("Email", "فرمت ایمیل اشتباه است");
                 return View("Views/Account/Index.cshtml", user);
             }
-            const string usaPhoneNumbersRegex = @"\(?\d{3}\)?-? *\d{3}-? *-?\d{4}/";
-            bool isValidPhone = Regex.IsMatch(user.Email, usaPhoneNumbersRegex);
+            //const string usePhoneNumbersRegex = @"/^(\+\d{1,3}[- ]?)?\d{10}$/";
+            //bool isValidPhone = Regex.IsMatch(user.Email, usePhoneNumbersRegex);
 
-            if (!isValidPhone)
-            {
-                ViewBag.register = true; //برای اینکه در ویو متوجه شویم که باید به قسمت ثبت نام ریدایرکت کنیم
-                ModelState.AddModelError("PhoneNumber", "فرمت  شماره تلفن اشتباه است");
-                return View("Views/Account/Index.cshtml", user);
-            }
+            //if (!isValidPhone)
+            //{
+            //    ViewBag.register = true; //برای اینکه در ویو متوجه شویم که باید به قسمت ثبت نام ریدایرکت کنیم
+            //    ModelState.AddModelError("PhoneNumber", "فرمت  شماره تلفن اشتباه است");
+            //    return View("Views/Account/Index.cshtml", user);
+            //}
 
 
             #endregion
 
             _service.AddUser(user);
 
-            return Redirect("/Account");
+            return PartialView("Welcome");
         }
         [Authorize]
         public IActionResult Logout()

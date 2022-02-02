@@ -25,10 +25,10 @@
 
             <div class="tab-pane fade @((ViewBag.register==null)?"show active ":"") " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="form px-4 pt-5">
-                    <form asp-controller="Account" asp-action="Index" method="post">
-                        @if (ViewBag.login!=null){ <span asp-validation-for="EmailOrPhone" class="text-danger"></span>}
+                    <form  asp-controller="Account" asp-action="Index" method="post">
+                        @if (ViewBag.login!=null){ <span asp-validation-for="Email" class="text-danger"></span>}
                        
-                        <input type="text" name="EmailOrPhone" asp-for="EmailOrPhone" class="form-control" placeholder="ایمیل یا شماره تلفن ">
+                        <input id="EmailOrPhone" type="text" name="Email" asp-for="Email" class="form-control" placeholder="ایمیل یا شماره تلفن ">
 
                     @if (ViewBag.login != null)
                     {
@@ -51,7 +51,7 @@
 
             <div class="tab-pane fade @((ViewBag.register!=null)?"show active ":"") " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="form px-4">
-                    <form method="post" asp-controller="Account" asp-action="Register">
+                    <form id="submitForm" method="post" asp-controller="Account" asp-action="Register">
                       @if (ViewBag.register!=null)
                       {
                           <span asp-validation-for="Name" class="text-danger"></span>
@@ -82,8 +82,8 @@
                       }
                        
                         <input asp-for="RePassword" type="password" name="RePassword" class="form-control" placeholder="تکرار رمز عبور ">
-                        <button class="btn btn-dark btn-block">نام نویسی</button>
-
+                        <button id="submit"  class="btn btn-dark btn-block">نام نویسی</button>
+                        
                     </form>
                     
                 </div>

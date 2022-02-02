@@ -4,12 +4,7 @@ Custom Css
 
 @font-face {
     font-family: 'IRANSansWeb';
-    src: url('/fonts/fonts/eot/IRANSansWeb.eot') format('eot'),
-         url('/fonts/fonts/ttf/IRANSansWeb.ttf') format('ttf'), 
-         url('/fonts/fonts/woff/IRANSansWeb.woff') format('woff'),
-         url('/fonts/fonts/woff2/IRANSansWeb.woff2') format('woff2');
-    
-   
+    src: url('/fonts/fonts/eot/IRANSansWeb.eot') format('eot'), url('/fonts/fonts/ttf/IRANSansWeb.ttf') format('ttf'), url('/fonts/fonts/woff/IRANSansWeb.woff') format('woff'), url('/fonts/fonts/woff2/IRANSansWeb.woff2') format('woff2');
 }
 
 
@@ -17,69 +12,117 @@ body {
     direction: rtl;
     font-family: 'IRANSans' !important;
 }
+
 .Jbanner {
-  background-color: #10d88f;
-  border: none;
-  width: 50px;
-  height: 50px;
-  color: white;
-  
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 32px;
-  margin: 4px 2px;
-  }
+    background-color: #10d88f;
+    border: none;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 32px;
+    margin: 4px 2px;
+}
+
 .addpro {
-    margin-top:100px;
-   display:flex;
-   
+    margin-top: 100px;
+    display: flex;
 }
-.file-btn{
-    padding:0;
+
+.file-btn {
+    padding: 0;
 }
+
 .file-input {
     opacity: 0;
-    float:right;
-    margin-top:-38px
-  
+    float: right;
+    margin-top: -38px
 }
-.selectedimg{
-    width:351px;
-    
+
+.selectedimg {
+    width: 351px;
 }
+
 .selectedimg2 {
     width: 100px;
-    height:200px;
-    border:1px solid red;
-    margin-right:2px;
+    height: 200px;
+    border: 1px solid red;
+    margin-right: 2px;
 }
+
 #PBox {
     height: 377px;
-   
     min-height: 377px;
 }
-.jm {
-   /* display:flex;*/
+
+.banner {
+    width: 100%
+}
+
+.product-section {
+    background-color: #f2f2f2;
+    margin: 100px 0 100px 0;
+}
+
+.small-banner {
+    width: 60%
 }
 /*navbar styles*/
 .margin-right {
     margin-right: 2%;
 }
+.my-mb-100 {
+    margin-bottom: 100px;
+}
+.social {
+    padding: 100px 100px 0 0!important;
+    
+}
 .logo {
     width: 60%
 }
+.logo-2 {
+    width: 10%;
+    margin-right: 5%
+}
+.margin-ri-5 {
+    margin-right: 5%
+}
+.bg-f2f2f2 {
+    background-color: #f2f2f2
+}
+
 @media screen and (max-width: 991px) {
-  .h1,.h2,.h3,.h4,.h5  {
-       font-size: .9em!important;
-   }
-    
+    .h1, .h2, .h3, .h4, .h5 {
+        font-size: .9em !important;
+    }
+
     .logo {
         width: 10%
     }
+    .logo-2 {
+        width: 20%
+    }
+
+    .small-banner {
+        width: 50%;
+        margin-top: 100px;
+
+    }
+    .social {
+        padding: 0 !important;
+        margin-right: 5%;
+    }
 }
+
 @media (min-width: 399px) and (max-width: 575px) {
     .d-mymd-block {
-        display: block!important;
+        display: block !important;
     }
+    .logo-2 {
+        width: 40%
+    }
+    
 }
