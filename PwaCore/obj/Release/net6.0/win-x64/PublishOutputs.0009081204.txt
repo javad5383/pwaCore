@@ -350,7 +350,7 @@ C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\hostfxr.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\hostpolicy.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\mscordaccore.dll
-C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\mscordaccore_amd64_amd64_6.0.21.52210.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\mscordaccore_amd64_amd64_6.0.121.56705.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\mscordbi.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\mscorrc.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\win-x64\PubTmp\Out\msquic.dll

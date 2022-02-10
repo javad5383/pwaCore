@@ -9164,11 +9164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\PwaCore.csproj",
+      "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj",
       "projectName": "PwaCore",
-      "projectPath": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\PwaCore.csproj",
+      "projectPath": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj",
       "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\",
+      "outputPath": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9244,7 +9244,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

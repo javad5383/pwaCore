@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "041d29b4-7a68-4ab6-ab89-6642e2993ea2": {
+      "ProjectGuid": "041d29b4-7a68-4ab6-ab89-6642e2993ea2",
+      "DisplayName": "PwaCore",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

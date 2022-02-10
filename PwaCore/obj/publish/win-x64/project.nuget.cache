@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oJOzzYUPIxbwMuUg3WbDrWjHKML5lbYe7ZUwanVVaSsB8bGSDjN6lxpFReRXVhEtsb62hxbXS/Gz4hdEVlgf9w==",
+  "dgSpecHash": "OxkVL2sW9XqQbuEp4bnMhzYWW/FGPzBSTyS2vCDAyvT+fPrQJwKOZIlOaBnQNjM+KWORWqfjeTsUrIY2bvpn4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj",
   "expectedPackageFiles": [
@@ -197,9 +197,9 @@
     "C:\\Users\\mohammad\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\mohammad\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
     "C:\\Users\\mohammad\\.nuget\\packages\\zarinpalsandbox\\2.0.4\\zarinpalsandbox.2.0.4.nupkg.sha512",
-    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0\\microsoft.netcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
-    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0.nupkg.sha512",
-    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0.nupkg.sha512"
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.1\\microsoft.netcore.app.runtime.win-x64.6.0.1.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.1\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.1.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.1\\microsoft.aspnetcore.app.runtime.win-x64.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }

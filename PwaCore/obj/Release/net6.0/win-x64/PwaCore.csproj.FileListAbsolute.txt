@@ -381,7 +381,6 @@ C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\dbgshi
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\hostfxr.dll
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\hostpolicy.dll
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\mscordaccore.dll
-C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.21.52210.dll
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\mscordbi.dll
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\mscorrc.dll
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\bin\Release\net6.0\win-x64\msquic.dll
@@ -403,3 +402,4 @@ C:\Users\mohammad\source\repos\PwaCore\PwaCore\obj\Release\net6.0\win-x64\PwaCor
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\obj\Release\net6.0\win-x64\ref\PwaCore.dll
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\obj\Release\net6.0\win-x64\PwaCore.pdb
 C:\Users\mohammad\source\repos\PwaCore\PwaCore\obj\Release\net6.0\win-x64\PwaCore.genruntimeconfig.cache
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.121.56705.dll

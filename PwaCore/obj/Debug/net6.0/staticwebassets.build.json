@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g0F7sxwU1Ze7bRm7Q0s19a5hE9ozAdpFLUfwX1u8kVA=",
+  "Hash": "QmJOCu9wjpGH5WZHbWJY+yZ/B3I2S72hZAEkan4RT60=",
   "Source": "PwaCore",
   "BasePath": "_content/PwaCore",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PwaCore\\wwwroot",
       "Source": "PwaCore",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PwaCore.styles.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PwaCore.styles.css",
       "SourceId": "PwaCore",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "PwaCore.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PwaCore.styles.css"
+      "OriginalItemSpec": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PwaCore.styles.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PwaCore.bundle.scp.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PwaCore.bundle.scp.css",
       "SourceId": "PwaCore",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "PwaCore.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PwaCore.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PwaCore.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\app.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\app.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "app.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\app.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\carousel\\main.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\carousel\\main.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "carousel/main.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\carousel\\main.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\carousel\\zoom-image.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\carousel\\zoom-image.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "carousel/zoom-image.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\carousel\\zoom-image.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\Cart.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\Cart.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/Cart.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Cart.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\custom.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\custom.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/custom.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\fontawesome.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/fontawesome.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\fontawesome.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/fontawesome.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\jquery.easy_slides.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\jquery.easy_slides.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/jquery.easy_slides.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jquery.easy_slides.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\Login.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\slick.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\slick.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/slick.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\slick.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\slick-theme.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\slick-theme.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/slick-theme.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\slick-theme.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\slick-theme.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\slick-theme.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/slick-theme.min.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\slick-theme.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\templatemo.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\templatemo.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/templatemo.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\templatemo.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\css\\templatemo.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\css\\templatemo.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "css/templatemo.min.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\templatemo.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\css\\fontiran.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\css\\fontiran.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/css/fontiran.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\css\\fontiran.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\css\\style.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\css\\style.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/css/style.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/eot/IRANSansWeb.eot",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\eot\\IRANSansWeb.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Black.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Black.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/eot/IRANSansWeb_Black.eot",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Black.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Bold.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Bold.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/eot/IRANSansWeb_Bold.eot",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Bold.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Light.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Light.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/eot/IRANSansWeb_Light.eot",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Light.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Medium.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Medium.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/eot/IRANSansWeb_Medium.eot",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_Medium.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_UltraLight.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_UltraLight.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/eot/IRANSansWeb_UltraLight.eot",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\eot\\IRANSansWeb_UltraLight.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/IRANSansWeb.ttf",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Black.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Black.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/IRANSansWeb_Black.ttf",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Black.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Bold.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Bold.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/IRANSansWeb_Bold.ttf",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Light.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Light.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/IRANSansWeb_Light.ttf",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Light.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Medium.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Medium.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/IRANSansWeb_Medium.ttf",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_Medium.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_UltraLight.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_UltraLight.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/IRANSansWeb_UltraLight.ttf",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\IRANSansWeb_UltraLight.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Bold.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Bold.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/Xino Yekan Bold.ttf",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Fat.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Fat.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/Xino Yekan Fat.ttf",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Fat.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Heavy.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Heavy.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/Xino Yekan Heavy.ttf",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Heavy.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Light.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Light.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/Xino Yekan Light.ttf",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Light.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Medium.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Medium.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/Xino Yekan Medium.ttf",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Medium.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Regular.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Regular.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/ttf/Xino Yekan Regular.ttf",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\ttf\\Xino Yekan Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff/IRANSansWeb.woff",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff\\IRANSansWeb.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Black.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Black.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff/IRANSansWeb_Black.woff",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Black.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Bold.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Bold.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff/IRANSansWeb_Bold.woff",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Light.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Light.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff/IRANSansWeb_Light.woff",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Light.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Medium.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Medium.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff/IRANSansWeb_Medium.woff",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_Medium.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_UltraLight.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_UltraLight.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff/IRANSansWeb_UltraLight.woff",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff\\IRANSansWeb_UltraLight.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff2/IRANSansWeb.woff2",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Black.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Black.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff2/IRANSansWeb_Black.woff2",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Black.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Bold.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Bold.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff2/IRANSansWeb_Bold.woff2",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Bold.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Light.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Light.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff2/IRANSansWeb_Light.woff2",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Light.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Medium.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Medium.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff2/IRANSansWeb_Medium.woff2",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_Medium.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_UltraLight.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_UltraLight.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/fonts/woff2/IRANSansWeb_UltraLight.woff2",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts\\woff2\\IRANSansWeb_UltraLight.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\fonts\\IRANSans.html",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\fonts\\IRANSans.html",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "fonts/IRANSans.html",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\IRANSans.html"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\05aa7ef2-7b44-4b3a-9b27-00c742893010هودی-مردانه-0089-زیتونی-3.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\05aa7ef2-7b44-4b3a-9b27-00c742893010هودی-مردانه-0089-زیتونی-3.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/05aa7ef2-7b44-4b3a-9b27-00c742893010هودی-مردانه-0089-زیتونی-3.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\05aa7ef2-7b44-4b3a-9b27-00c742893010هودی-مردانه-0089-زیتونی-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\0698ba42-505d-4675-bf0e-85cdaa01cc80کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-بغل.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\0698ba42-505d-4675-bf0e-85cdaa01cc80کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-بغل.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/0698ba42-505d-4675-bf0e-85cdaa01cc80کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-بغل.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\0698ba42-505d-4675-bf0e-85cdaa01cc80کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-بغل.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\097b7816-b21b-4acb-a424-750eee45fc3fپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-پشت.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\097b7816-b21b-4acb-a424-750eee45fc3fپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-پشت.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/097b7816-b21b-4acb-a424-750eee45fc3fپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-پشت.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\097b7816-b21b-4acb-a424-750eee45fc3fپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-پشت.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\097dc7cb-04ab-4dec-a467-144b1904f607بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-زنانه.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\097dc7cb-04ab-4dec-a467-144b1904f607بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-زنانه.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/097dc7cb-04ab-4dec-a467-144b1904f607بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-زنانه.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\097dc7cb-04ab-4dec-a467-144b1904f607بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-زنانه.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\154dfe4a-63fe-4de8-9fea-3d1c3404eb8bبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-رو-به-رو.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\154dfe4a-63fe-4de8-9fea-3d1c3404eb8bبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-رو-به-رو.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/154dfe4a-63fe-4de8-9fea-3d1c3404eb8bبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-رو-به-رو.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\154dfe4a-63fe-4de8-9fea-3d1c3404eb8bبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-رو-به-رو.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\1b81f4e2-0fad-48a4-858c-3c6953d26e1bپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جنس-فوتر.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\1b81f4e2-0fad-48a4-858c-3c6953d26e1bپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جنس-فوتر.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/1b81f4e2-0fad-48a4-858c-3c6953d26e1bپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جنس-فوتر.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\1b81f4e2-0fad-48a4-858c-3c6953d26e1bپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جنس-فوتر.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\1b88ab1a-094b-4311-a6ce-1c60a359a9f4پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی-1.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\1b88ab1a-094b-4311-a6ce-1c60a359a9f4پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی-1.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/1b88ab1a-094b-4311-a6ce-1c60a359a9f4پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی-1.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\1b88ab1a-094b-4311-a6ce-1c60a359a9f4پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\24f6d98a-51fb-4c94-b1b8-7da30fecbce3بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-یقه-انگلیسی.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\24f6d98a-51fb-4c94-b1b8-7da30fecbce3بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-یقه-انگلیسی.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/24f6d98a-51fb-4c94-b1b8-7da30fecbce3بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-یقه-انگلیسی.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\24f6d98a-51fb-4c94-b1b8-7da30fecbce3بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-یقه-انگلیسی.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\28ad65a5-cde9-4c7b-98b9-e82f76d9e556پالتو-زنانه-57501-سرمه-ای-1 5.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\28ad65a5-cde9-4c7b-98b9-e82f76d9e556پالتو-زنانه-57501-سرمه-ای-1 5.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/28ad65a5-cde9-4c7b-98b9-e82f76d9e556پالتو-زنانه-57501-سرمه-ای-1 5.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\28ad65a5-cde9-4c7b-98b9-e82f76d9e556پالتو-زنانه-57501-سرمه-ای-1 5.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\2b3095d6-ce97-4941-948a-f99e91f9a7daبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-آستین.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\2b3095d6-ce97-4941-948a-f99e91f9a7daبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-آستین.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/2b3095d6-ce97-4941-948a-f99e91f9a7daبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-آستین.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\2b3095d6-ce97-4941-948a-f99e91f9a7daبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-آستین.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\2d26e30d-eb99-4901-ade1-6809addad75bهودی-مردانه-0089-زیتونی-1.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\2d26e30d-eb99-4901-ade1-6809addad75bهودی-مردانه-0089-زیتونی-1.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/2d26e30d-eb99-4901-ade1-6809addad75bهودی-مردانه-0089-زیتونی-1.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\2d26e30d-eb99-4901-ade1-6809addad75bهودی-مردانه-0089-زیتونی-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\308f6624-082a-4d14-90a0-188ddc001232بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-پشت.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\308f6624-082a-4d14-90a0-188ddc001232بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-پشت.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/308f6624-082a-4d14-90a0-188ddc001232بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-پشت.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\308f6624-082a-4d14-90a0-188ddc001232بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-پشت.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\31be1d93-5445-4684-999c-4d80f1b68e5121-03-17-16-56-40-125_deco.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\31be1d93-5445-4684-999c-4d80f1b68e5121-03-17-16-56-40-125_deco.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/31be1d93-5445-4684-999c-4d80f1b68e5121-03-17-16-56-40-125_deco.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\31be1d93-5445-4684-999c-4d80f1b68e5121-03-17-16-56-40-125_deco.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\331cf4c1-4343-4035-bac1-4e7469f69cccهودی-مردانه-0089-زیتونی-1.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\331cf4c1-4343-4035-bac1-4e7469f69cccهودی-مردانه-0089-زیتونی-1.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/331cf4c1-4343-4035-bac1-4e7469f69cccهودی-مردانه-0089-زیتونی-1.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\331cf4c1-4343-4035-bac1-4e7469f69cccهودی-مردانه-0089-زیتونی-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\33c2a041-e195-46ed-965a-c0d827116a90پالتو-زنانه-170024-مشکی-روبرو.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\33c2a041-e195-46ed-965a-c0d827116a90پالتو-زنانه-170024-مشکی-روبرو.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/33c2a041-e195-46ed-965a-c0d827116a90پالتو-زنانه-170024-مشکی-روبرو.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\33c2a041-e195-46ed-965a-c0d827116a90پالتو-زنانه-170024-مشکی-روبرو.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\34728122-a7d8-4650-860d-69d667af80b0بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-یقه-انگلیسی.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\34728122-a7d8-4650-860d-69d667af80b0بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-یقه-انگلیسی.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/34728122-a7d8-4650-860d-69d667af80b0بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-یقه-انگلیسی.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\34728122-a7d8-4650-860d-69d667af80b0بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-یقه-انگلیسی.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\39f5d08d-19ca-45cd-9d26-439b53c113c051vZCXPUt4L._AC_UX679_.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\39f5d08d-19ca-45cd-9d26-439b53c113c051vZCXPUt4L._AC_UX679_.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/39f5d08d-19ca-45cd-9d26-439b53c113c051vZCXPUt4L._AC_UX679_.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\39f5d08d-19ca-45cd-9d26-439b53c113c051vZCXPUt4L._AC_UX679_.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\3dffac1b-ab50-42d4-ad99-44f898ee80d3هودی-مردانه-0089-زیتونی-2.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\3dffac1b-ab50-42d4-ad99-44f898ee80d3هودی-مردانه-0089-زیتونی-2.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/3dffac1b-ab50-42d4-ad99-44f898ee80d3هودی-مردانه-0089-زیتونی-2.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\img\\3dffac1b-ab50-42d4-ad99-44f898ee80d3هودی-مردانه-0089-زیتونی-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\41b77b9b-bafe-4dcc-8ddc-6319c82e269aIntersect.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\41b77b9b-bafe-4dcc-8ddc-6319c82e269aIntersect.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/41b77b9b-bafe-4dcc-8ddc-6319c82e269aIntersect.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\img\\41b77b9b-bafe-4dcc-8ddc-6319c82e269aIntersect.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\41ebdc95-016c-4ebd-ad62-0f454556a762هودی-مردانه-0089-زیتونی-8.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\41ebdc95-016c-4ebd-ad62-0f454556a762هودی-مردانه-0089-زیتونی-8.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/41ebdc95-016c-4ebd-ad62-0f454556a762هودی-مردانه-0089-زیتونی-8.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\41ebdc95-016c-4ebd-ad62-0f454556a762هودی-مردانه-0089-زیتونی-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\4248da24-605d-4177-918a-f9470c3970b8پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل (1).jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\4248da24-605d-4177-918a-f9470c3970b8پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل (1).jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/4248da24-605d-4177-918a-f9470c3970b8پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل (1).jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\img\\4248da24-605d-4177-918a-f9470c3970b8پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\43112abf-7935-427f-8fa4-168a3238d254بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-جلو-باز.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\43112abf-7935-427f-8fa4-168a3238d254بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-جلو-باز.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/43112abf-7935-427f-8fa4-168a3238d254بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-جلو-باز.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\img\\43112abf-7935-427f-8fa4-168a3238d254بارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-جلو-باز.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\4c03d8f8-f1a2-4c96-a025-099e57e40d77هودی-مردانه-0089-زیتونی-6.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\4c03d8f8-f1a2-4c96-a025-099e57e40d77هودی-مردانه-0089-زیتونی-6.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/4c03d8f8-f1a2-4c96-a025-099e57e40d77هودی-مردانه-0089-زیتونی-6.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\img\\4c03d8f8-f1a2-4c96-a025-099e57e40d77هودی-مردانه-0089-زیتونی-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\53899016-df32-44e7-9285-8c0efec92479پالتو-زنانه-57501-سرمه-ای-1 7.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\53899016-df32-44e7-9285-8c0efec92479پالتو-زنانه-57501-سرمه-ای-1 7.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/53899016-df32-44e7-9285-8c0efec92479پالتو-زنانه-57501-سرمه-ای-1 7.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\img\\53899016-df32-44e7-9285-8c0efec92479پالتو-زنانه-57501-سرمه-ای-1 7.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\574a6519-d962-4fb1-b091-1af89be37da6هودی-مردانه-0089-زیتونی-7.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\574a6519-d962-4fb1-b091-1af89be37da6هودی-مردانه-0089-زیتونی-7.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/574a6519-d962-4fb1-b091-1af89be37da6هودی-مردانه-0089-زیتونی-7.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\img\\574a6519-d962-4fb1-b091-1af89be37da6هودی-مردانه-0089-زیتونی-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\5a980337-fd39-40d6-8582-dc682618d003پالتو-زنانه-57501-سرمه-ای-1 6.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\5a980337-fd39-40d6-8582-dc682618d003پالتو-زنانه-57501-سرمه-ای-1 6.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/5a980337-fd39-40d6-8582-dc682618d003پالتو-زنانه-57501-سرمه-ای-1 6.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\5a980337-fd39-40d6-8582-dc682618d003پالتو-زنانه-57501-سرمه-ای-1 6.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\679c0e83-a287-439c-a294-63ea0b1ffbe5پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-یقه-آمریکایی.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\679c0e83-a287-439c-a294-63ea0b1ffbe5پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-یقه-آمریکایی.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/679c0e83-a287-439c-a294-63ea0b1ffbe5پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-یقه-آمریکایی.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\img\\679c0e83-a287-439c-a294-63ea0b1ffbe5پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-یقه-آمریکایی.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\6849bb03-049f-421b-9fae-e1ff8fc0ea3d21-03-29-17-25-05-017_deco.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\6849bb03-049f-421b-9fae-e1ff8fc0ea3d21-03-29-17-25-05-017_deco.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/6849bb03-049f-421b-9fae-e1ff8fc0ea3d21-03-29-17-25-05-017_deco.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\img\\6849bb03-049f-421b-9fae-e1ff8fc0ea3d21-03-29-17-25-05-017_deco.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\68e2922e-e968-4c70-8f08-2c7a668797feپالتو-زنانه-170024-مشکی-نمای-روبرو.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\68e2922e-e968-4c70-8f08-2c7a668797feپالتو-زنانه-170024-مشکی-نمای-روبرو.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/68e2922e-e968-4c70-8f08-2c7a668797feپالتو-زنانه-170024-مشکی-نمای-روبرو.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\img\\68e2922e-e968-4c70-8f08-2c7a668797feپالتو-زنانه-170024-مشکی-نمای-روبرو.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\725f9fdb-ddf0-4dc4-a7d5-304db46d5b86سویشرت-دخترانه-665-یشمی-2-1 3.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\725f9fdb-ddf0-4dc4-a7d5-304db46d5b86سویشرت-دخترانه-665-یشمی-2-1 3.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/725f9fdb-ddf0-4dc4-a7d5-304db46d5b86سویشرت-دخترانه-665-یشمی-2-1 3.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\725f9fdb-ddf0-4dc4-a7d5-304db46d5b86سویشرت-دخترانه-665-یشمی-2-1 3.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\734a1fcc-9e33-4b50-abcc-cd7ef598b577هودی-مردانه-0089-زیتونی-2.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\734a1fcc-9e33-4b50-abcc-cd7ef598b577هودی-مردانه-0089-زیتونی-2.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/734a1fcc-9e33-4b50-abcc-cd7ef598b577هودی-مردانه-0089-زیتونی-2.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\img\\734a1fcc-9e33-4b50-abcc-cd7ef598b577هودی-مردانه-0089-زیتونی-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\79a2fba9-a615-4a0e-b41b-890dbdd7de5bپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-جلو-باز (1).jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\79a2fba9-a615-4a0e-b41b-890dbdd7de5bپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-جلو-باز (1).jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/79a2fba9-a615-4a0e-b41b-890dbdd7de5bپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-جلو-باز (1).jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\img\\79a2fba9-a615-4a0e-b41b-890dbdd7de5bپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-جلو-باز (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\7b122ef9-47d3-490f-8953-fd0813d2d35dبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-بغل.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\7b122ef9-47d3-490f-8953-fd0813d2d35dبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-بغل.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/7b122ef9-47d3-490f-8953-fd0813d2d35dبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-بغل.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\7b122ef9-47d3-490f-8953-fd0813d2d35dبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-بغل.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\7b3c7dcb-139d-44f3-8225-7d6074e8ecf7بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-محیطی.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\7b3c7dcb-139d-44f3-8225-7d6074e8ecf7بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-محیطی.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/7b3c7dcb-139d-44f3-8225-7d6074e8ecf7بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-محیطی.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\img\\7b3c7dcb-139d-44f3-8225-7d6074e8ecf7بارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-محیطی.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\7d4ed24d-5c6d-47ae-b6f3-2389c4fcac11سویشرت-دخترانه-665-یشمی-2-1 1.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\7d4ed24d-5c6d-47ae-b6f3-2389c4fcac11سویشرت-دخترانه-665-یشمی-2-1 1.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/7d4ed24d-5c6d-47ae-b6f3-2389c4fcac11سویشرت-دخترانه-665-یشمی-2-1 1.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\img\\7d4ed24d-5c6d-47ae-b6f3-2389c4fcac11سویشرت-دخترانه-665-یشمی-2-1 1.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\7f222959-1d49-4d1a-8de2-ec4282d03c95هودی-مردانه-0089-زیتونی-6.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\7f222959-1d49-4d1a-8de2-ec4282d03c95هودی-مردانه-0089-زیتونی-6.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/7f222959-1d49-4d1a-8de2-ec4282d03c95هودی-مردانه-0089-زیتونی-6.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\img\\7f222959-1d49-4d1a-8de2-ec4282d03c95هودی-مردانه-0089-زیتونی-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\81611044-2a59-4992-ae00-846e7ea0e9eaپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-چاک.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\81611044-2a59-4992-ae00-846e7ea0e9eaپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-چاک.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/81611044-2a59-4992-ae00-846e7ea0e9eaپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-چاک.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\img\\81611044-2a59-4992-ae00-846e7ea0e9eaپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-چاک.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\8e2eb20b-a237-41cc-8005-cfb727a922eeپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-یقه-انگلیسی.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\8e2eb20b-a237-41cc-8005-cfb727a922eeپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-یقه-انگلیسی.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/8e2eb20b-a237-41cc-8005-cfb727a922eeپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-یقه-انگلیسی.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\img\\8e2eb20b-a237-41cc-8005-cfb727a922eeپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-یقه-انگلیسی.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\95d15e62-4f6d-4335-bfdb-d5273a190f55پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\95d15e62-4f6d-4335-bfdb-d5273a190f55پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/95d15e62-4f6d-4335-bfdb-d5273a190f55پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\95d15e62-4f6d-4335-bfdb-d5273a190f55پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-بغل.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\95de7ed0-c3ba-4b5e-b29d-02ddfb7a7de0کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-پشت.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\95de7ed0-c3ba-4b5e-b29d-02ddfb7a7de0کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-پشت.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/95de7ed0-c3ba-4b5e-b29d-02ddfb7a7de0کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-پشت.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\img\\95de7ed0-c3ba-4b5e-b29d-02ddfb7a7de0کاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-پشت.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\97b8c677-5571-4ed1-879e-3e6cdca018f3سویشرت-مردانه-1359-قرمز-روشن-1-1 (1).jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\97b8c677-5571-4ed1-879e-3e6cdca018f3سویشرت-مردانه-1359-قرمز-روشن-1-1 (1).jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/97b8c677-5571-4ed1-879e-3e6cdca018f3سویشرت-مردانه-1359-قرمز-روشن-1-1 (1).jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\img\\97b8c677-5571-4ed1-879e-3e6cdca018f3سویشرت-مردانه-1359-قرمز-روشن-1-1 (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\a5690de4-3085-476f-a414-9a54daf88ccfپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\a5690de4-3085-476f-a414-9a54daf88ccfپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/a5690de4-3085-476f-a414-9a54daf88ccfپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a5690de4-3085-476f-a414-9a54daf88ccfپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-محیطی.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\aae95ae9-741f-4694-9e28-e062592c94ecبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-آستین.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\aae95ae9-741f-4694-9e28-e062592c94ecبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-آستین.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/aae95ae9-741f-4694-9e28-e062592c94ecبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-آستین.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\img\\aae95ae9-741f-4694-9e28-e062592c94ecبارانی-زنانه-بلند-یقه-انگلیسی-یشمی-پررنگ-آستین.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\about-hero.svg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\about-hero.svg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/about-hero.svg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-hero.svg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\ajax-loader.gif",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\ajax-loader.gif",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/ajax-loader.gif",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\apple-icon.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\apple-icon.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/apple-icon.png",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\img\\apple-icon.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\b05198f0-37cb-4703-96c8-d95c6a7a68baهودی-مردانه-0089-زیتونی-8.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\b05198f0-37cb-4703-96c8-d95c6a7a68baهودی-مردانه-0089-زیتونی-8.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/b05198f0-37cb-4703-96c8-d95c6a7a68baهودی-مردانه-0089-زیتونی-8.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b05198f0-37cb-4703-96c8-d95c6a7a68baهودی-مردانه-0089-زیتونی-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\banner1.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\banner1.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/banner1.png",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner1.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\banner2.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\banner2.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/banner2.png",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner2.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\banner3.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\banner3.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/banner3.png",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner3.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\bbffce6a-ef23-4825-bceb-e57692780e70پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\bbffce6a-ef23-4825-bceb-e57692780e70پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/bbffce6a-ef23-4825-bceb-e57692780e70پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bbffce6a-ef23-4825-bceb-e57692780e70پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\bddf0825-0bb6-4f31-bc7e-5315234170f6پالتو-زنانه-170024-مشکی-نمای-بغل.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\bddf0825-0bb6-4f31-bc7e-5315234170f6پالتو-زنانه-170024-مشکی-نمای-بغل.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/bddf0825-0bb6-4f31-bc7e-5315234170f6پالتو-زنانه-170024-مشکی-نمای-بغل.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bddf0825-0bb6-4f31-bc7e-5315234170f6پالتو-زنانه-170024-مشکی-نمای-بغل.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\be30d997-b34f-4a3c-8d49-154b1d27b9cf21-03-17-23-33-52-187_deco.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\be30d997-b34f-4a3c-8d49-154b1d27b9cf21-03-17-23-33-52-187_deco.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/be30d997-b34f-4a3c-8d49-154b1d27b9cf21-03-17-23-33-52-187_deco.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\img\\be30d997-b34f-4a3c-8d49-154b1d27b9cf21-03-17-23-33-52-187_deco.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\brand_01.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\brand_01.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/brand_01.png",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\img\\brand_01.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\brand_02.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\brand_02.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/brand_02.png",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\img\\brand_02.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\brand_03.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\brand_03.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/brand_03.png",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\img\\brand_03.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\brand_04.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\brand_04.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/brand_04.png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\img\\brand_04.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\c08c8b24-6b4d-4eaf-b931-fa34f4a3fafdپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-پشت.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\c08c8b24-6b4d-4eaf-b931-fa34f4a3fafdپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-پشت.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/c08c8b24-6b4d-4eaf-b931-fa34f4a3fafdپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-پشت.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\img\\c08c8b24-6b4d-4eaf-b931-fa34f4a3fafdپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-پشت.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\category_img_01.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\category_img_01.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/category_img_01.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\img\\category_img_01.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\category_img_02.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\category_img_02.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/category_img_02.jpg",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\img\\category_img_02.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\category_img_03.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\category_img_03.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/category_img_03.jpg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\img\\category_img_03.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\d4326de4-eb51-4316-99eb-2300e35bd8fdپالتو-زنانه-57501-سرمه-ای-1 8.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\d4326de4-eb51-4316-99eb-2300e35bd8fdپالتو-زنانه-57501-سرمه-ای-1 8.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/d4326de4-eb51-4316-99eb-2300e35bd8fdپالتو-زنانه-57501-سرمه-ای-1 8.png",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\img\\d4326de4-eb51-4316-99eb-2300e35bd8fdپالتو-زنانه-57501-سرمه-ای-1 8.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\d7d6d993-2793-4cba-9fc3-d3b9947ec90bکاپشن-زنانه-بلند-کلاه-دار-مشکی-پشت.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\d7d6d993-2793-4cba-9fc3-d3b9947ec90bکاپشن-زنانه-بلند-کلاه-دار-مشکی-پشت.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/d7d6d993-2793-4cba-9fc3-d3b9947ec90bکاپشن-زنانه-بلند-کلاه-دار-مشکی-پشت.jpg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\img\\d7d6d993-2793-4cba-9fc3-d3b9947ec90bکاپشن-زنانه-بلند-کلاه-دار-مشکی-پشت.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\d8c2bd52-500a-4a42-8022-85d69d784fefهودی-مردانه-0089-زیتونی-5.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\d8c2bd52-500a-4a42-8022-85d69d784fefهودی-مردانه-0089-زیتونی-5.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/d8c2bd52-500a-4a42-8022-85d69d784fefهودی-مردانه-0089-زیتونی-5.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\img\\d8c2bd52-500a-4a42-8022-85d69d784fefهودی-مردانه-0089-زیتونی-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\de2df687-b5e1-4f0c-8b3d-1a645d988389پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-بغل.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\de2df687-b5e1-4f0c-8b3d-1a645d988389پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-بغل.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/de2df687-b5e1-4f0c-8b3d-1a645d988389پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-بغل.jpg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\img\\de2df687-b5e1-4f0c-8b3d-1a645d988389پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-بغل.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\e26ccfc0-5b90-4ff6-b652-33c6d4ee7b8bکاپشن-زنانه-بلند-کلاه-دار-مشکی-جلو-باز.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\e26ccfc0-5b90-4ff6-b652-33c6d4ee7b8bکاپشن-زنانه-بلند-کلاه-دار-مشکی-جلو-باز.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/e26ccfc0-5b90-4ff6-b652-33c6d4ee7b8bکاپشن-زنانه-بلند-کلاه-دار-مشکی-جلو-باز.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\img\\e26ccfc0-5b90-4ff6-b652-33c6d4ee7b8bکاپشن-زنانه-بلند-کلاه-دار-مشکی-جلو-باز.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\e6ef5e2e-7edd-436d-9859-7e727bca2fbfکاپشن-زنانه-بلند-کلاه-دار-مشکی-رو-به-رو.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\e6ef5e2e-7edd-436d-9859-7e727bca2fbfکاپشن-زنانه-بلند-کلاه-دار-مشکی-رو-به-رو.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/e6ef5e2e-7edd-436d-9859-7e727bca2fbfکاپشن-زنانه-بلند-کلاه-دار-مشکی-رو-به-رو.jpg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\img\\e6ef5e2e-7edd-436d-9859-7e727bca2fbfکاپشن-زنانه-بلند-کلاه-دار-مشکی-رو-به-رو.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\e8c0e024-2948-469e-a0cb-276bbcb0637fهودی-مردانه-0089-زیتونی-7.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\e8c0e024-2948-469e-a0cb-276bbcb0637fهودی-مردانه-0089-زیتونی-7.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/e8c0e024-2948-469e-a0cb-276bbcb0637fهودی-مردانه-0089-زیتونی-7.jpg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\img\\e8c0e024-2948-469e-a0cb-276bbcb0637fهودی-مردانه-0089-زیتونی-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\ea2d2a23-e3c6-463d-88f1-ab9e807d20e4پالتو-زنانه-170024-مشکی-روبرو-1.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\ea2d2a23-e3c6-463d-88f1-ab9e807d20e4پالتو-زنانه-170024-مشکی-روبرو-1.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/ea2d2a23-e3c6-463d-88f1-ab9e807d20e4پالتو-زنانه-170024-مشکی-روبرو-1.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ea2d2a23-e3c6-463d-88f1-ab9e807d20e4پالتو-زنانه-170024-مشکی-روبرو-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\ec528b79-05d7-469f-9160-5a5d02f02b50هودی-مردانه-0089-زیتونی-5.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\ec528b79-05d7-469f-9160-5a5d02f02b50هودی-مردانه-0089-زیتونی-5.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/ec528b79-05d7-469f-9160-5a5d02f02b50هودی-مردانه-0089-زیتونی-5.jpg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ec528b79-05d7-469f-9160-5a5d02f02b50هودی-مردانه-0089-زیتونی-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\ef197ff5-efac-4824-a6e8-436f1b92d834سویشرت-دخترانه-665-یشمی-2-1 4.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\ef197ff5-efac-4824-a6e8-436f1b92d834سویشرت-دخترانه-665-یشمی-2-1 4.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/ef197ff5-efac-4824-a6e8-436f1b92d834سویشرت-دخترانه-665-یشمی-2-1 4.png",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ef197ff5-efac-4824-a6e8-436f1b92d834سویشرت-دخترانه-665-یشمی-2-1 4.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\ef59d0cc-0728-4821-a363-c1bda9323f41پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جلو-باز.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\ef59d0cc-0728-4821-a363-c1bda9323f41پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جلو-باز.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/ef59d0cc-0728-4821-a363-c1bda9323f41پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جلو-باز.jpg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ef59d0cc-0728-4821-a363-c1bda9323f41پالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-جلو-باز.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f0621b4e-1fe5-43f8-b9d5-ab34cb7cfd9bکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-جلو.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\f0621b4e-1fe5-43f8-b9d5-ab34cb7cfd9bکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-جلو.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/f0621b4e-1fe5-43f8-b9d5-ab34cb7cfd9bکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-جلو.jpg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f0621b4e-1fe5-43f8-b9d5-ab34cb7cfd9bکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-جلو.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f1d1a07d-32df-4fd5-b986-5bb43afa986cکاپشن-زنانه-بلند-کلاه-دار-مشکی-بغل.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\f1d1a07d-32df-4fd5-b986-5bb43afa986cکاپشن-زنانه-بلند-کلاه-دار-مشکی-بغل.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/f1d1a07d-32df-4fd5-b986-5bb43afa986cکاپشن-زنانه-بلند-کلاه-دار-مشکی-بغل.jpg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f1d1a07d-32df-4fd5-b986-5bb43afa986cکاپشن-زنانه-بلند-کلاه-دار-مشکی-بغل.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f2550b7c-dc5c-4085-bf7a-72e2750648cfکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-رو-به-رو.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\f2550b7c-dc5c-4085-bf7a-72e2750648cfکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-رو-به-رو.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/f2550b7c-dc5c-4085-bf7a-72e2750648cfکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-رو-به-رو.jpg",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f2550b7c-dc5c-4085-bf7a-72e2750648cfکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-رو-به-رو.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f3b801c2-eef3-4b5c-b909-fd19815f644aspring v-neck Butterfly sleeve Dresses chiffon Knee-Length.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\f3b801c2-eef3-4b5c-b909-fd19815f644aspring v-neck Butterfly sleeve Dresses chiffon Knee-Length.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/f3b801c2-eef3-4b5c-b909-fd19815f644aspring v-neck Butterfly sleeve Dresses chiffon Knee-Length.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f3b801c2-eef3-4b5c-b909-fd19815f644aspring v-neck Butterfly sleeve Dresses chiffon Knee-Length.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f444f9b8-3944-439e-b6d1-43ecd66599b7پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو (1).jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\f444f9b8-3944-439e-b6d1-43ecd66599b7پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو (1).jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/f444f9b8-3944-439e-b6d1-43ecd66599b7پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو (1).jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f444f9b8-3944-439e-b6d1-43ecd66599b7پالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-رو-به-رو (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f51a596f-e5e3-4cc3-aa9e-bdfec7d46cddپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-آستین.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\f51a596f-e5e3-4cc3-aa9e-bdfec7d46cddپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-آستین.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/f51a596f-e5e3-4cc3-aa9e-bdfec7d46cddپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-آستین.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f51a596f-e5e3-4cc3-aa9e-bdfec7d46cddپالتو-کتی-کوتاه-زنانه-فوتر-یقه-انگلیسی-عنابی-آستین.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f92a552a-889c-4729-ad03-78bdb94f753fبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-بغل.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\f92a552a-889c-4729-ad03-78bdb94f753fبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-بغل.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/f92a552a-889c-4729-ad03-78bdb94f753fبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-بغل.jpg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f92a552a-889c-4729-ad03-78bdb94f753fبارانی-زنانه-بلند-یقه-انگلیسی-سرمه-ای-تیره-بغل.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\favicon.ico",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\favicon.ico",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/favicon.ico",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\feature_prod_01.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\feature_prod_01.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/feature_prod_01.jpg",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\img\\feature_prod_01.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\feature_prod_02.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\feature_prod_02.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/feature_prod_02.jpg",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\img\\feature_prod_02.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\feature_prod_03.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\feature_prod_03.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/feature_prod_03.jpg",
       "AssetKind": "All",
@@ -2380,10 +2380,61 @@
       "OriginalItemSpec": "wwwroot\\img\\feature_prod_03.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 205.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 184.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/Group 184.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Group 184.png"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 185.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/Group 185.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Group 185.png"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 186.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/Group 186.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Group 186.png"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 205.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 205.png",
       "AssetKind": "All",
@@ -2397,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 205.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 206.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 206.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 206.png",
       "AssetKind": "All",
@@ -2414,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 206.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 207.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 207.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 207.png",
       "AssetKind": "All",
@@ -2431,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 207.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 208.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 208.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 208.png",
       "AssetKind": "All",
@@ -2448,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 208.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 209.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 209.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 209.png",
       "AssetKind": "All",
@@ -2465,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 209.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 210.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 210.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 210.png",
       "AssetKind": "All",
@@ -2482,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 210.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 211.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 211.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 211.png",
       "AssetKind": "All",
@@ -2499,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 211.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 212.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 212.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 212.png",
       "AssetKind": "All",
@@ -2516,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 212.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 213.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 213.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 213.png",
       "AssetKind": "All",
@@ -2533,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 213.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\Group 214.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 214.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/Group 214.png",
       "AssetKind": "All",
@@ -2550,10 +2601,61 @@
       "OriginalItemSpec": "wwwroot\\img\\Group 214.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\hh@4x 1.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 218.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/Group 218.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Group 218.png"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 219.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/Group 219.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Group 219.png"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\Group 221.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/Group 221.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Group 221.png"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\hh@4x 1.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/hh@4x 1.png",
       "AssetKind": "All",
@@ -2567,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\hh@4x 1.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety114.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety114.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety114.png",
       "AssetKind": "All",
@@ -2584,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety114.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety144.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety144.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety144.png",
       "AssetKind": "All",
@@ -2601,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety144.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety152.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety152.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety152.png",
       "AssetKind": "All",
@@ -2618,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety152.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety167.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety167.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety167.png",
       "AssetKind": "All",
@@ -2635,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety167.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety180.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety180.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety180.png",
       "AssetKind": "All",
@@ -2652,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety180.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety192.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety192.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety192.png",
       "AssetKind": "All",
@@ -2669,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety192.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety256.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety256.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety256.png",
       "AssetKind": "All",
@@ -2686,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety256.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety384.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety384.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety384.png",
       "AssetKind": "All",
@@ -2703,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety384.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety48.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety48.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety48.png",
       "AssetKind": "All",
@@ -2720,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety48.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety512.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety512.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety512.png",
       "AssetKind": "All",
@@ -2737,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety512.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety57.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety57.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety57.png",
       "AssetKind": "All",
@@ -2754,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety57.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety72.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety72.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety72.png",
       "AssetKind": "All",
@@ -2771,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety72.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety76.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety76.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety76.png",
       "AssetKind": "All",
@@ -2788,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety76.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety96.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\icons\\Icon_safety96.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/icons/Icon_safety96.png",
       "AssetKind": "All",
@@ -2805,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\Icon_safety96.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\maskable_icon-196.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\maskable_icon-196.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/maskable_icon-196.png",
       "AssetKind": "All",
@@ -2822,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\img\\maskable_icon-196.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\productimg3.png",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\productimg3.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/productimg3.png",
       "AssetKind": "All",
@@ -2839,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\img\\productimg3.png"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_01.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_01.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_01.jpg",
       "AssetKind": "All",
@@ -2856,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_01.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_02.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_02.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_02.jpg",
       "AssetKind": "All",
@@ -2873,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_02.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_03.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_03.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_03.jpg",
       "AssetKind": "All",
@@ -2890,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_03.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_04.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_04.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_04.jpg",
       "AssetKind": "All",
@@ -2907,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_04.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_05.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_05.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_05.jpg",
       "AssetKind": "All",
@@ -2924,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_05.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_06.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_06.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_06.jpg",
       "AssetKind": "All",
@@ -2941,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_06.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_07.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_07.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_07.jpg",
       "AssetKind": "All",
@@ -2958,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_07.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_08.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_08.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_08.jpg",
       "AssetKind": "All",
@@ -2975,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_08.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_09.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_09.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_09.jpg",
       "AssetKind": "All",
@@ -2992,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_09.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_10.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_10.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_10.jpg",
       "AssetKind": "All",
@@ -3009,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_10.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\shop_11.jpg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\img\\shop_11.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "img/shop_11.jpg",
       "AssetKind": "All",
@@ -3026,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop_11.jpg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3043,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\custom.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\custom.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -3060,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\jquery.easy_slides.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\jquery.easy_slides.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/jquery.easy_slides.js",
       "AssetKind": "All",
@@ -3077,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.easy_slides.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\jquery-1.11.0.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/jquery-1.11.0.min.js",
       "AssetKind": "All",
@@ -3094,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\jquery-migrate-1.2.1.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\jquery-migrate-1.2.1.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/jquery-migrate-1.2.1.min.js",
       "AssetKind": "All",
@@ -3111,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-migrate-1.2.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\MyScript.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\MyScript.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/MyScript.js",
       "AssetKind": "All",
@@ -3128,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\js\\MyScript.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\slick.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\slick.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/slick.min.js",
       "AssetKind": "All",
@@ -3145,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\js\\slick.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\templatemo.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\templatemo.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/templatemo.js",
       "AssetKind": "All",
@@ -3162,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\templatemo.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\js\\templatemo.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\js\\templatemo.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "js/templatemo.min.js",
       "AssetKind": "All",
@@ -3179,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\js\\templatemo.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3196,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3213,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3230,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3247,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3264,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3281,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3298,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3315,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3332,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3349,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3366,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3383,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3400,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3417,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3434,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3451,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3468,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3485,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3502,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3519,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3536,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3553,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3570,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3587,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3604,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3621,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3638,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3655,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3672,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3689,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3706,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3723,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -3740,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\manifest.json",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\manifest.json",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "manifest.json",
       "AssetKind": "All",
@@ -3757,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\manifest.json"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\serviceWorker.js",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\serviceWorker.js",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "serviceWorker.js",
       "AssetKind": "All",
@@ -3774,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\serviceWorker.js"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -3791,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.svg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -3808,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -3825,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -3842,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -3859,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -3876,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.svg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -3893,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -3910,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -3927,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -3944,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -3961,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.svg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -3978,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -3995,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -4012,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -4029,10 +4131,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\slick.eot",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\slick.eot",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/slick.eot",
       "AssetKind": "All",
@@ -4046,10 +4148,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\slick.eot"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\slick.svg",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\slick.svg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/slick.svg",
       "AssetKind": "All",
@@ -4063,10 +4165,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\slick.svg"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\slick.ttf",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\slick.ttf",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/slick.ttf",
       "AssetKind": "All",
@@ -4080,10 +4182,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\slick.ttf"
     },
     {
-      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\webfonts\\slick.woff",
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\webfonts\\slick.woff",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\wwwroot\\",
       "BasePath": "_content/PwaCore",
       "RelativePath": "webfonts/slick.woff",
       "AssetKind": "All",

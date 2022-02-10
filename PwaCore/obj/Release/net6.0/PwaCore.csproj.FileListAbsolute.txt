@@ -5,7 +5,6 @@ C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\PwaCore.exe
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\PwaCore.deps.json
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\PwaCore.runtimeconfig.json
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\PwaCore.dll
-C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\ref\PwaCore.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\PwaCore.pdb
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\Humanizer.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
@@ -72,3 +71,4 @@ C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\runtimes\rhel-
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\runtimes\win7-arm\native\libuv.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\runtimes\win7-x64\native\libuv.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\runtimes\win7-x86\native\libuv.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\bin\Release\net6.0\ref\PwaCore.dll

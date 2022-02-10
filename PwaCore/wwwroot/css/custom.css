@@ -12,7 +12,10 @@ body {
     direction: rtl;
     font-family: 'IRANSans' !important;
 }
-
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #696969;
+}
 .Jbanner {
     background-color: #10d88f;
     border: none;
@@ -24,6 +27,10 @@ body {
     display: block;
     font-size: 32px;
     margin: 4px 2px;
+}
+
+.btn-large {
+    width: 200px;
 }
 
 .addpro {
