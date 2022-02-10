@@ -4,7 +4,8 @@ namespace PwaCore.Services.Interface
 {
     public interface IProductService
     {
-        IEnumerable<Products> GetProducts();
+        IEnumerable<Products> GetProducts(int pageId);
+        IEnumerable<Products> GetProducts(string skip);
 
         Products? GetProductById(int productId);
         void AddProduct(Products product, IFormFile mainImg, List<IFormFile> images);

@@ -129,9 +129,9 @@ namespace PwaCore.Controllers
             
             return View();
         }
-        public IActionResult Shop()
+        public IActionResult Shop(int pageId)
         {
-            var prod = _productService.GetProducts();
+            var prod = _productService.GetProducts(pageId);
             
             return View(prod.ToList());
         }
@@ -143,9 +143,9 @@ namespace PwaCore.Controllers
             return View(pro);
         }
 
-        public IActionResult Getp()
+        public IActionResult Getp(string num)
         {
-            return Json(_productService.GetProducts().ToList());
+            return Json(_productService.GetProducts(num).ToList());
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

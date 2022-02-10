@@ -97,6 +97,8 @@ namespace PwaCore.Services.Class
                 .FirstOrDefault(c => c.UserId == userId && !c.IsFinally)!;//!=> for stop warning
         }
 
+        
+
         public Products? GetProductById(int productId)
         {
             var pro = _context.Products
@@ -106,9 +108,15 @@ namespace PwaCore.Services.Class
 
         }
 
-        public IEnumerable<Products> GetProducts()
+        public IEnumerable<Products> GetProducts(int pageId)
         {
-            return _context.Products;
+            var skip = pageId * 3;
+            return _context.Products.Skip(skip).Take(3);
+        }
+        public IEnumerable<Products> GetProducts(string skip)
+        {
+
+            return _context.Products.Skip(int.Parse(skip) * 3).Take(3);
         }
 
         public Cart AddToCart(int userId, int productId, int quantity)

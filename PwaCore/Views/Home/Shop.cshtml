@@ -99,11 +99,11 @@
             </div>
 
             <div div="row ">
-                <div class="d-flex justify-content-center col-12">
-                    <a class="btn btn-large   bg-f2f2f2 ">بیشتر</a>
-                </div>
+                @*<div id="show-msg" class="d-flex justify-content-center col-12">
+                    <a id="show-more" class="btn btn-large   bg-f2f2f2 ">بیشتر</a>
+                </div>*@
                
-                @* <ul class="pagination pagination-lg justify-content-center">
+                 <ul class="pagination pagination-lg justify-content-center">
                     <li class="page-item disabled">
                         <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="#" tabindex="-1">1</a>
                     </li>
@@ -113,10 +113,10 @@
                     <li class="page-item">
                         <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="#">3</a>
                     </li>
-                </ul>*@
+                </ul>
             </div>
         </div>
-
+       
     </div>
 </div>
 <!-- End Content -->
@@ -220,61 +220,68 @@
 </section>
 <!--End Brands-->
 @*<script>
-    window.addEventListener('load' , () =>{
-    fetch('/home/Getp')
-    .then(response => response.json())
-    .then(data => {
+    const button = document.getElementById("show-more");
+    var num = 1;
+    button.addEventListener('click' , () =>{
+        fetch(`/home/Getp?num=${num}`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                
+                if (data.length!==0) {
+                num++;
+                for (var i = 0; i < data.length; i++) {
 
+                    var productsShow=
+                            `<div  class="col-md-4 sort">`
+                                +`<div class="card mb-4 product-wap rounded-0">`
+                                +`<div class="card rounded-0">`
+                                +`<img id="PBox"  class="card-img  rounded-0 img-fluid" src="/img/${data[i].mainImg}">`
+                                +`<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">`
+                                +`<ul class="list-unstyled">`
+                                +`<li><a class="btn btn-success text-white" ><i class="far fa-heart"></i></a></li>`
+                                +`<li><a class="btn btn-success text-white mt-2" href="/home/shopSingle?productId=${data.id}" ><i class="far fa-eye"></i></a></li>`
+                                +`<li><a class="btn btn-success text-white mt-2" ><i class="fas fa-cart-plus"></i></a></li>`
+                                +`</ul>`
+                                +`</div>`
+                                +`</div>`
+                                +`<div class="card-body ">`
+                                +`<a href="/home/shopSingle" class="h3 text-decoration-none">${data[i].name}</a>`
+                                +`<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">`
+                                +`<li>M/L/X/XL</li>`
+                                +`<li class="pt-2">`
+                                +`<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>`
+                                +`<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>`
+                                +`<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>`
+                                +`<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>`
+                                +`<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>`
+                                +`</li>`
+                                +`</ul>`
+                                +`<ul class="list-unstyled d-flex justify-content-center mb-1">`
+                                +`<li>`
+                                +`<i class="text-warning fa fa-star"></i>`
+                                +`<i class="text-warning fa fa-star"></i>`
+                                +`<i class="text-warning fa fa-star"></i>`
+                                +`<i class="text-muted fa fa-star"></i>`
+                                +`<i class="text-muted fa fa-star"></i>`
+                                +`</li>`
+                                +`</ul>`
+                                +`<p class="text-center mb-0">${data[i].price}</p>`
+                                +`</div>`
+                                +`</div>`
+                                +`</div>`
+                        ;
+                    $("#prodDiv").append(productsShow);
 
-    for (var i = 0; i < data.length; i++) {
-
-    var productsShow=
-    `<div  class="col-md-4 sort">`
-    +`<div class="card mb-4 product-wap rounded-0">`
-    +`<div class="card rounded-0">`
-    +`<img id="PBox"  class="card-img  rounded-0 img-fluid" src="/img/${data[i].mainImg}">`
-    +`<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">`
-    +`<ul class="list-unstyled">`
-    +`<li><a class="btn btn-success text-white" href="/home/shopSingle"><i class="far fa-heart"></i></a></li>`
-    +`<li><a class="btn btn-success text-white mt-2" asp-controller="home" asp-action="ShopSingle" asp-route-productId="${data.id}" ><i class="far fa-eye"></i></a></li>`
-    +`<li><a class="btn btn-success text-white mt-2" href="/home/shopSingle"><i class="fas fa-cart-plus"></i></a></li>`
-    +`</ul>`
-    +`</div>`
-    +`</div>`
-    +`<div class="card-body ">`
-    +`<a href="/home/shopSingle" class="h3 text-decoration-none">${data[i].name}</a>`
-    +`<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">`
-    +`<li>M/L/X/XL</li>`
-    +`<li class="pt-2">`
-    +`<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>`
-    +`<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>`
-    +`<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>`
-    +`<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>`
-    +`<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>`
-    +`</li>`
-    +`</ul>`
-    +`<ul class="list-unstyled d-flex justify-content-center mb-1">`
-    +`<li>`
-    +`<i class="text-warning fa fa-star"></i>`
-    +`<i class="text-warning fa fa-star"></i>`
-    +`<i class="text-warning fa fa-star"></i>`
-    +`<i class="text-muted fa fa-star"></i>`
-    +`<i class="text-muted fa fa-star"></i>`
-    +`</li>`
-    +`</ul>`
-    +`<p class="text-center mb-0">${data[i].price}</p>`
-    +`</div>`
-    +`</div>`
-    +`</div>`
-    ;
-    $("#prodDiv").append(productsShow);
-
-    }
+                }
+                } else {
+                    button.style.display = "none";
+                    $("#show-msg").append(
+                        ' <p class="text-danger">کالای دیگری یافت نشد</p>'
+                        );
+                }
+            });
     });
-    });
 
 
-
-
-
-    </script>*@
+</script>*@
