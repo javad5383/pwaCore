@@ -12,6 +12,7 @@ namespace PwaCore.Controllers
 
         public AddProduct(IProductService productService)
         {
+
             _productService = productService;
         }
 
@@ -21,11 +22,11 @@ namespace PwaCore.Controllers
             return View("/Views/Admin/AddProduct.cshtml");
         }
         [HttpPost]
-        public IActionResult Index(Products product,IFormFile mainImg, List<IFormFile> images)
+        public IActionResult Index(Products product,string gender,IFormFile mainImg, List<IFormFile> images)
         {
 
             if (product == null) { return View("Error"); }
-            _productService.AddProduct(product, mainImg, images);
+            _productService.AddProduct(product, mainImg, images,gender);
 
             return Redirect("/home/shop");
         }

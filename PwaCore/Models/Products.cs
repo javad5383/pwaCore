@@ -11,6 +11,10 @@ namespace PwaCore.Models
         public decimal Price { get; set; }
         public string? MainImg { get; set; }
 
+        public  bool ForMan { get; set; }
+        public  bool ForWoMan { get; set; }
+        public bool ForChildren { get; set; } 
+
         public List<ProductImages>? ProductImages { get; set; }
 
 

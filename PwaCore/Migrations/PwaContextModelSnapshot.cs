@@ -113,6 +113,15 @@ namespace PwaCore.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<bool>("ForChildren")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("ForMan")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("ForWoMan")
+                        .HasColumnType("bit");
+
                     b.Property<string>("MainImg")
                         .HasColumnType("nvarchar(max)");
 

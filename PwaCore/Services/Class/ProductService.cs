@@ -15,9 +15,28 @@ namespace PwaCore.Services.Class
             _context = context;
         }
 
-        public void AddProduct(Products product, IFormFile mainImg, List<IFormFile> images)
+        public void AddProduct(Products product, IFormFile mainImg, List<IFormFile> images, string gender)
         {
-            if (mainImg != null)
+            switch (gender)
+            {
+                case "Man":
+                    {
+                        product.ForMan = true;
+                        break;
+                    }
+                case "Woman":
+                    {
+                        product.ForWoMan = true;
+                        break;
+                    }
+                case "Children":
+                    {
+                        product.ForChildren = true;
+                        break;
+                    }
+            }
+
+            if (mainImg.Length != 0)
             {
                 var fileName = Guid.NewGuid() + mainImg.FileName;
 
@@ -34,7 +53,7 @@ namespace PwaCore.Services.Class
             _context.SaveChanges();
 
 
-            if (images != null)
+            if (images.Count != 0)
             {
                 var imgs = new List<ProductImages>();
                 foreach (var item in images)
@@ -89,9 +108,32 @@ namespace PwaCore.Services.Class
             return _context.Users.Any(u => u.Email == email);
         }
 
-        public int PageCount()
+        public int PageCount(string gender)
         {
-            var count = _context.Products.Count();
+            int count;
+            switch (gender)
+            {
+                case "man":
+                    {
+                        count = _context.Products.Count(c=>c.ForMan);
+                        break;
+                    }
+                case "woman":
+                {
+                    count = _context.Products.Count(c => c.ForWoMan);
+                    break;
+                }
+                case "children":
+                {
+                    count = _context.Products.Count(c => c.ForChildren);
+                    break;
+                }
+                default: count = _context.Products.Count();break;
+            }
+
+            //var count = _context.Products.Count();
+
+
             int pageNumber = count / 3;
             if (count % 3 > 0)
             {
@@ -119,10 +161,23 @@ namespace PwaCore.Services.Class
 
         }
 
-        public IEnumerable<Products> GetProducts(int pageId)
+        public IEnumerable<Products> GetProducts(int pageId, string gender)
         {
+
             var skip = pageId * 3;
-            return _context.Products.Skip(skip).Take(3);
+            var product = _context.Products.Skip(skip).Take(3);
+
+            switch (gender)
+            {
+                case "man": return _context.Products.Where(p => p.ForMan == true).Skip(skip).Take(3); ;
+
+                case "woman": return _context.Products.Where(p => p.ForWoMan == true).Skip(skip).Take(3); ;
+
+                case "children": return _context.Products.Where(p => p.ForChildren == true).Skip(skip).Take(3);
+
+                default: return product;
+            }
+
         }
         public IEnumerable<Products> GetProducts(string skip)
         {

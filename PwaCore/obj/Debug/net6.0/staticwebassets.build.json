@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bKVS/lYk0Oqh0gNNOYt6FuD08Yr0e0rWX06hk/L5qyE=",
+  "Hash": "HVVx9Mzb9Sq/VOczNgJGTicvECRmT3XkRDVj4qA9WX4=",
   "Source": "PwaCore",
   "BasePath": "_content/PwaCore",
   "Mode": "Default",
@@ -2023,6 +2023,23 @@
       "OriginalItemSpec": "wwwroot\\img\\c08c8b24-6b4d-4eaf-b931-fa34f4a3fafdپالتو-یقه-آمریکایی-زنانه-کوتاه-طرح-خالدار-مشکی-پشت.jpg"
     },
     {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\c691f8d2-453a-4574-9412-edaffc10f7d0Rectangle 1.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/c691f8d2-453a-4574-9412-edaffc10f7d0Rectangle 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\c691f8d2-453a-4574-9412-edaffc10f7d0Rectangle 1.png"
+    },
+    {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\category_img_01.jpg",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
@@ -2089,6 +2106,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\d4326de4-eb51-4316-99eb-2300e35bd8fdپالتو-زنانه-57501-سرمه-ای-1 8.png"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\d7ba0ea7-5801-48dc-af1f-a9e8d1757a0easdasdasd.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/d7ba0ea7-5801-48dc-af1f-a9e8d1757a0easdasdasd.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\d7ba0ea7-5801-48dc-af1f-a9e8d1757a0easdasdasd.png"
     },
     {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\d7d6d993-2793-4cba-9fc3-d3b9947ec90bکاپشن-زنانه-بلند-کلاه-دار-مشکی-پشت.jpg",
@@ -2227,6 +2261,23 @@
       "OriginalItemSpec": "wwwroot\\img\\ec528b79-05d7-469f-9160-5a5d02f02b50هودی-مردانه-0089-زیتونی-5.jpg"
     },
     {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\ed3f6312-6f7d-4eb1-a393-221aaebf4409Rectangle2.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/ed3f6312-6f7d-4eb1-a393-221aaebf4409Rectangle2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ed3f6312-6f7d-4eb1-a393-221aaebf4409Rectangle2.png"
+    },
+    {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\ef197ff5-efac-4824-a6e8-436f1b92d834سویشرت-دخترانه-665-یشمی-2-1 4.png",
       "SourceId": "PwaCore",
       "SourceType": "Discovered",
@@ -2310,6 +2361,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\f2550b7c-dc5c-4085-bf7a-72e2750648cfکاپشن-زنانه-کلاه-دار-تو-کرکی-مشکی-رو-به-رو.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f321a85f-95a5-4bb8-b245-fe878ff5df82Rectangle 3.png",
+      "SourceId": "PwaCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\",
+      "BasePath": "_content/PwaCore",
+      "RelativePath": "img/f321a85f-95a5-4bb8-b245-fe878ff5df82Rectangle 3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\f321a85f-95a5-4bb8-b245-fe878ff5df82Rectangle 3.png"
     },
     {
       "Identity": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\wwwroot\\img\\f3b801c2-eef3-4b5c-b909-fd19815f644aspring v-neck Butterfly sleeve Dresses chiffon Knee-Length.jpg",

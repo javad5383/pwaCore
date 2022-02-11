@@ -14,25 +14,25 @@ namespace PwaCore.Controllers
     public class HomeController : Controller
     {
 
-        
-       readonly string callbackurl = "http://localhost:5008/Home/VerifyPayment";
+
+        readonly string callbackurl = "http://localhost:5008/Home/VerifyPayment";
 
         private readonly ILogger<HomeController> _logger;
         private readonly IProductService _productService;
-        
+
         public HomeController(ILogger<HomeController> logger, IProductService productService)
         {
             _productService = productService;
             _logger = logger;
         }
-        
+
         public IActionResult Index()
         {
-           /*ViewBag.randomProducts=*/ 
-           ViewData["random"]=_productService.GetRandomProducts();
+            /*ViewBag.randomProducts=*/
+            ViewData["random"] = _productService.GetRandomProducts();
             return View();
         }
-        
+
         public IActionResult About()
         {
             return View();
@@ -42,7 +42,7 @@ namespace PwaCore.Controllers
         {
             int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
             var cart = _productService.GetCart(userId);
-            if (cart!=null)
+            if (cart != null)
             {
                 return View(cart);
             }
@@ -52,9 +52,9 @@ namespace PwaCore.Controllers
         }
 
         [Authorize]
-        public IActionResult AddToCart(int productId,string quantity)
+        public IActionResult AddToCart(int productId, string quantity)
         {
-            if (productId==0||string.IsNullOrEmpty(quantity))
+            if (productId == 0 || string.IsNullOrEmpty(quantity))
             {
                 return NotFound();
             }
@@ -67,7 +67,7 @@ namespace PwaCore.Controllers
             try
             {
                 var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-                var userEmail =User.FindFirstValue(ClaimTypes.Email);
+                var userEmail = User.FindFirstValue(ClaimTypes.Email);
                 var userPhoneNumber = User.FindFirstValue(ClaimTypes.MobilePhone);
                 var amount = _productService.GetCart(userId).TotalPrice;
                 var payment = new Payment((int)amount);
@@ -105,14 +105,14 @@ namespace PwaCore.Controllers
 
                 if (res.Status == 100)
                 {
-                    _productService.FinishPayment(userId,cart.Id);
+                    _productService.FinishPayment(userId, cart.Id);
                     ViewBag.auth = authority;
                     ViewBag.status = "OK";
 
                     return View();
 
                 }
-               
+
             }
             else
             {
@@ -126,20 +126,24 @@ namespace PwaCore.Controllers
         }
         public IActionResult Contact()
         {
-            
+
             return View();
         }
-        public IActionResult Shop(int pageId=0)// 0 is default value for pageId(when pageId is null)
+        public IActionResult Shop(string gender, int pageId = 0)// 0 is default value for pageId(when pageId is null)
         {
-            var prod = _productService.GetProducts(pageId);
-            ViewBag.countProducts = _productService.PageCount();
+            var prod = _productService.GetProducts(pageId, gender);
+
+            var countPage = _productService.PageCount(gender);
+            
+            ViewBag.countPage = countPage;
             ViewBag.currentPage = pageId;
+            ViewBag.currentGender = gender;
 
             return View(prod.ToList());
         }
         public IActionResult ShopSingle(int productId)
         {
-            var pro=_productService.GetProductById(productId);
+            var pro = _productService.GetProductById(productId);
             ViewData["random"] = _productService.GetRandomProducts();
 
             return View(pro);
