@@ -129,10 +129,12 @@ namespace PwaCore.Controllers
             
             return View();
         }
-        public IActionResult Shop(int pageId)
+        public IActionResult Shop(int pageId=0)// 0 is default value for pageId(when pageId is null)
         {
             var prod = _productService.GetProducts(pageId);
-            
+            ViewBag.countProducts = _productService.PageCount();
+            ViewBag.currentPage = pageId;
+
             return View(prod.ToList());
         }
         public IActionResult ShopSingle(int productId)

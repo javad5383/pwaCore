@@ -89,6 +89,17 @@ namespace PwaCore.Services.Class
             return _context.Users.Any(u => u.Email == email);
         }
 
+        public int PageCount()
+        {
+            var count = _context.Products.Count();
+            int pageNumber = count / 3;
+            if (count % 3 > 0)
+            {
+                pageNumber += 1;
+            }
+            return pageNumber;
+        }
+
         public Cart GetCart(int userId)
         {
             return _context.Cart
@@ -97,7 +108,7 @@ namespace PwaCore.Services.Class
                 .FirstOrDefault(c => c.UserId == userId && !c.IsFinally)!;//!=> for stop warning
         }
 
-        
+
 
         public Products? GetProductById(int productId)
         {
@@ -209,7 +220,7 @@ namespace PwaCore.Services.Class
 
             return _context.Products.Skip(skip).Take(4).ToList();
 
-            
+
         }
     }
 }

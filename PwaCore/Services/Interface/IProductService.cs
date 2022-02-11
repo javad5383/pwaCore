@@ -15,7 +15,7 @@ namespace PwaCore.Services.Interface
         Users? GetUser(string userInput);
 
         bool IsExistEmail(string email);
-
+        int PageCount();
         Cart GetCart(int userId);
 
         Cart AddToCart(int userId, int productId,int quantity);
