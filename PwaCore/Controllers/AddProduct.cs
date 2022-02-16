@@ -28,7 +28,8 @@ namespace PwaCore.Controllers
             if (product == null) { return View("Error"); }
             _productService.AddProduct(product, mainImg, images,gender);
 
-            return Redirect("/home/shop");
+            //return Redirect("/home/shop");
+            return Redirect("/addProduct");
         }
     }
 }

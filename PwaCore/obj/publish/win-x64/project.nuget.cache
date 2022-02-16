@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxkVL2sW9XqQbuEp4bnMhzYWW/FGPzBSTyS2vCDAyvT+fPrQJwKOZIlOaBnQNjM+KWORWqfjeTsUrIY2bvpn4w==",
+  "dgSpecHash": "LonsKaYGe9tw4tC/6Iiir8FvCVTmu5p28PmG4E5iepBsznZV76goJsdH92mPA600h7BskHfa/4EC1zDL8Fafdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mohammad\\source\\repos\\pwaCore\\PwaCore\\PwaCore.csproj",
+  "projectFilePath": "C:\\Users\\mohammad\\source\\repos\\PwaCore\\PwaCore\\PwaCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohammad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mohammad\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",

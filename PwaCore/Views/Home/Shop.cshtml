@@ -1,5 +1,7 @@
 ﻿@model IEnumerable<Products>
-
+@{
+    ViewData["Title"] = "فروشگاه";
+}
 <!-- Modal -->
 @*<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -20,7 +22,7 @@
 
 
 <!-- Start Content -->
-<div class="container py-5">
+<div class="container-fluid py-5">
     <div class="row">
 
         <div class="col-lg-3">
@@ -38,7 +40,7 @@
                         <li><a class="text-decoration-none @((ViewBag.currentGender=="children")?"text-success":"")" href="/home/shop?gender=children">بچه‌گانه</a></li>
                     </ul>
                 </li>
-
+@*
                 <li class="pb-3">
                     <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
                         محصول
@@ -49,7 +51,7 @@
                         <li><a class="text-decoration-none" href="#">ژاکت</a></li>
                         <li><a class="text-decoration-none" href="#">عينك آفتابي</a></li>
                     </ul>
-                </li>
+                </li>*@
             </ul>
         </div>
 
