@@ -30,6 +30,7 @@ namespace PwaCore.Controllers
         {
             /*ViewBag.randomProducts=*/
             ViewData["random"] = _productService.GetRandomProducts();
+            ViewData["spatial"] = _productService.GetSpatial();
             return View();
         }
 

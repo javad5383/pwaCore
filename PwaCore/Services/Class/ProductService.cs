@@ -38,7 +38,9 @@ namespace PwaCore.Services.Class
 
             if (mainImg.Length != 0)
             {
-                var fileName = Guid.NewGuid() + mainImg.FileName;
+                Random generator = new Random();
+                String random = generator.Next(0, 1000000).ToString("D6");
+                var fileName = random + mainImg.FileName;
 
                 var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
 
@@ -55,10 +57,12 @@ namespace PwaCore.Services.Class
 
             if (images.Count != 0)
             {
+                Random generator = new Random();
+                String random = generator.Next(0, 1000000).ToString("D6");
                 var imgs = new List<ProductImages>();
                 foreach (var item in images)
                 {
-                    var fileName = Guid.NewGuid() + item.FileName;
+                    var fileName = random + item.FileName;
 
                     var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
 
@@ -134,8 +138,8 @@ namespace PwaCore.Services.Class
             //var count = _context.Products.Count();
 
 
-            int pageNumber = count / 3;
-            if (count % 3 > 0)
+            int pageNumber = count / 6;
+            if (count % 6 > 0)
             {
                 pageNumber += 1;
             }
@@ -164,18 +168,17 @@ namespace PwaCore.Services.Class
         public IEnumerable<Products> GetProducts(int pageId, string gender)
         {
 
-            var skip = pageId * 3;
-            var product = _context.Products.Skip(skip).Take(3);
+            var skip = pageId * 6;
 
             switch (gender)
             {
-                case "man": return _context.Products.Where(p => p.ForMan == true).Skip(skip).Take(3); ;
+                case "man": return _context.Products.Where(p => p.ForMan == true).Skip(skip).Take(6); ;
 
-                case "woman": return _context.Products.Where(p => p.ForWoMan == true).Skip(skip).Take(3); ;
+                case "woman": return _context.Products.Where(p => p.ForWoMan == true).Skip(skip).Take(6); ;
 
-                case "children": return _context.Products.Where(p => p.ForChildren == true).Skip(skip).Take(3);
+                case "children": return _context.Products.Where(p => p.ForChildren == true).Skip(skip).Take(6);
 
-                default: return product;
+                default: return _context.Products.Skip(skip).Take(6); ;
             }
 
         }
@@ -206,9 +209,9 @@ namespace PwaCore.Services.Class
                         CartId = newCart.Id,
                         ProductId = product.Id,
                         Quantity = quantity,
-                        Price = product.Price
+                        Price = (quantity > 1) ? product.Price * quantity : product.Price
                     };
-                    newCart.TotalPrice = product.Price;
+                    newCart.TotalPrice = (quantity > 1) ? product.Price * quantity : product.Price;
                     newCart.TotalQuantity = quantity;
                     _context.CartDetails.Add(newCartDetail);
                     _context.SaveChanges();
@@ -223,11 +226,9 @@ namespace PwaCore.Services.Class
                     if (cartDetail != null)
                     {
                         cartDetail.Quantity += quantity;
-                        cartDetail.Price = product.Price * quantity;
+                        cartDetail.Price += (quantity > 1) ? product.Price * quantity : product.Price;
                         _context.SaveChanges();
-                        cart.TotalPrice = _context.CartDetails
-                            .Where(cd => cd.CartId == cart.Id)
-                            .Sum(p => p.Price);
+                        cart.TotalPrice += (quantity > 1) ? product.Price * quantity : product.Price;
 
                         cart.TotalQuantity = _context.CartDetails
                             .Where(cd => cd.CartId == cart.Id)
@@ -241,8 +242,9 @@ namespace PwaCore.Services.Class
                             CartId = cart.Id,
                             ProductId = productId,
                             Quantity = quantity,
-                            Price = product.Price
+                            Price = (quantity > 1) ? product.Price * quantity : product.Price
                         };
+
                         cart.TotalPrice += newCartDetail.Price;
                         cart.TotalQuantity += newCartDetail.Quantity;
                         _context.CartDetails.Add(newCartDetail);
@@ -276,6 +278,15 @@ namespace PwaCore.Services.Class
             return _context.Products.Skip(skip).Take(4).ToList();
 
 
+        }
+
+        public List<Products> GetSpatial()
+        {
+            var countProducts = _context.Products.Count(p=>p.ForWoMan);
+            var randomSkip = new Random();
+            var skip = randomSkip.Next(0, countProducts - 5);
+
+            return _context.Products.Where(p=>p.ForWoMan).Skip(skip).Take(4).ToList();
         }
     }
 }

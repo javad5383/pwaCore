@@ -1,22 +1,33 @@
-﻿@model Products
-
+﻿
+@model Products
+@{
+    ViewData["Title"] = Model.Name;
+}
   <section class="bg-light">
     <div class="container pb-5">
         <div class="row">
             <div class="col-lg-5 mt-5">
                 <div class="w-100" href="1.jpg">
-                    <img class="img-thumbnail carouse imgth" src="/img/@Model.MainImg" id="show-img">
+                    <img class="img-thumbnail  carouse imgth" src="/img/@Model.MainImg" id="show-img">
                 </div>
                 <div id="crsl" class="w-100 row  slider slider_four_in_line text-center">
-                    @foreach (var item in Model.ProductImages)
+                    @if (Model.ProductImages != null)
                     {
-                        <div id="carouselDiv" class="border">
-                            <img style="cursor:pointer" src="/img/@item.ImgName" class="thumb">
-                        </div>
+                        @if (Model.ProductImages.Count > 1)
+                        {
+                            @foreach (var item in Model.ProductImages)
+                            {
+                                <div id="carouselDiv" class="border">
+                                    <img style="cursor: pointer" src="/img/@item.ImgName" class="thumb">
+                                </div>
 
+                            }
+                            <div class="next_button"></div>
+                            <div class="prev_button"></div>
+                        }
+                        
                     }
-                    <div class="next_button"></div>
-                    <div class="prev_button"></div>
+                    
                 </div>
             </div>
 
@@ -110,7 +121,7 @@
                         <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                             <ul class="list-unstyled">
                                 <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                <li><a class="btn btn-success text-white mt-2" href="/home/ShopSingle?productId=@product.Id"><i class="far fa-eye"></i></a></li>
                                 <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
                             </ul>
                         </div>

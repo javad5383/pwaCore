@@ -60,10 +60,13 @@ a, a:hover, a:focus, a:active {
 }
 
 #PBox {
-    height: 377px;
+    height: 550px;
     min-height: 377px;
 }
-
+.img_box {
+    height: 450px;
+    min-height: 350px;
+}
 .banner {
     width: 100%
 }

@@ -18,7 +18,9 @@
     </div>
 
 *@
-
+@{
+    ViewData["Title"] = "فروشگاه لباس افسون-خانه";
+}
 <!-- Start Banner Hero -->
 <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
@@ -118,17 +120,17 @@
     <div class="container py-5">
         <div class="row text-center py-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h3">محصولات ویژه</h1>
+                <h1 class="h3">محصولات پر بازدید</h1>
 
             </div>
         </div>
         <div class="row">
-            @foreach (var product in (ViewData["random"] as List<Products>)!)
+            @foreach (var product in (ViewData["spatial"] as List<Products>)!)
             {
                 <div class="col-12 col-md-3 mb-4">
                     <div class="card h-100">
                         <a href="/home/shopSingle?productId=@product.Id">
-                            <img src="/img/@product.MainImg" class="card-img-top" alt="...">
+                            <img src="/img/@product.MainImg" class="card-img-top  img_box" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class=" list-unstyled  justify-content-between">
@@ -139,11 +141,11 @@
                                     <i class="text-muted fa fa-star"></i>
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">@product.Price.ToString("##,###") تومان</li>
+                             
                             </ul>
                             <a href="/home/shopSingle" class="h3  text-decoration-none text-dark">@product.Name</a>
 
-                            <p class="text-muted">Reviews (24)</p>
+                            <p class="text-muted">@product.Price.ToString("##,###") تومان</p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +180,7 @@
                 <div class="col-12 col-md-3 mb-4">
                     <div class="card h-100">
                         <a href="/home/shopSingle?productId=@product.Id">
-                            <img src="/img/@product.MainImg" class="card-img-top" alt="...">
+                            <img src="/img/@product.MainImg" class="card-img-top  img_box" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class=" list-unstyled  justify-content-between">
@@ -189,11 +191,11 @@
                                     <i class="text-muted fa fa-star"></i>
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">@product.Price.ToString("##,###") تومان</li>
+                               
                             </ul>
-                            <a href="/home/shopSingle" class="h3  text-decoration-none text-dark">@product.Name</a>
-
-                            <p class="text-muted">Reviews (24)</p>
+                            <a href="/home/shopSingle" class="h3 h-75 text-decoration-none text-dark">@product.Name</a>
+                            <br/>
+                            <p class="text-muted">@product.Price.ToString("##,###") تومان</p>
                         </div>
                     </div>
                 </div>
