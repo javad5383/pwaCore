@@ -4,6 +4,9 @@ C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\app
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\PwaCore.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\PwaCore.runtimeconfig.json
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\PwaCore.pdb
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.CodeAnalysis.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -15,7 +18,9 @@ C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Mic
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualBasic.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
@@ -23,6 +28,15 @@ C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\Sys
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\System.Security.Permissions.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\System.Windows.Extensions.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\ZarinpalSandbox.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\debian-x64\native\libuv.so
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\fedora-x64\native\libuv.so
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\opensuse-x64\native\libuv.so
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\osx\native\libuv.dylib
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\rhel-x64\native\libuv.so
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\win7-arm\native\libuv.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\win7-x64\native\libuv.dll
+C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\win7-x86\native\libuv.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
