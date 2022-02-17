@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PwaCore",
+    "\\PwaCore\\Views",
+    "\\PwaCore\\Views\\Home",
+    "\\PwaCore\\wwwroot",
+    "\\PwaCore\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\PwaCore\\Views\\Home\\Shop.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -12,10 +12,12 @@ body {
     direction: rtl;
     font-family: 'IRANSans' !important;
 }
+
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: #696969;
 }
+
 .Jbanner {
     background-color: #10d88f;
     border: none;
@@ -63,10 +65,12 @@ a, a:hover, a:focus, a:active {
     height: 550px;
     min-height: 377px;
 }
+
 .img_box {
     height: 450px;
     min-height: 350px;
 }
+
 .banner {
     width: 100%
 }
@@ -83,28 +87,38 @@ a, a:hover, a:focus, a:active {
 .margin-right {
     margin-right: 2%;
 }
+
 .my-mb-100 {
     margin-bottom: 100px;
 }
+
 .social {
-    padding: 100px 100px 0 0!important;
-    
+    padding: 100px 100px 0 0 !important;
 }
+
 .logo {
     width: 60%
 }
+
 .logo-2 {
     width: 10%;
     margin-right: 5%
 }
+
 .margin-ri-5 {
     margin-right: 5%
 }
+
 .bg-f2f2f2 {
     background-color: #f2f2f2
 }
 
-@media screen and (max-width: 991px) {
+.fs-vm {
+    font-size: .9em !important;
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
     .h1, .h2, .h3, .h4, .h5 {
         font-size: .9em !important;
     }
@@ -112,6 +126,7 @@ a, a:hover, a:focus, a:active {
     .logo {
         width: 10%
     }
+
     .logo-2 {
         width: 20%
     }
@@ -119,20 +134,29 @@ a, a:hover, a:focus, a:active {
     .small-banner {
         width: 50%;
         margin-top: 100px;
-
     }
+
     .social {
         padding: 0 !important;
         margin-right: 5%;
     }
 }
 
-@media (min-width: 399px) and (max-width: 575px) {
+@media (min-width: 250px) and (max-width: 575px) {
     .d-mymd-block {
         display: block !important;
     }
-    .logo-2 {
-        width: 40%
+
+    .logo {
+        width: 50%
     }
-    
+    .d-xs-none {
+        display: none;
+    }
+    .h-baner {
+        height: 350px;
+    }
+    .logo-2 {
+        width: 45%
+    }
 }

@@ -33,25 +33,14 @@
                         بر اساس جنسیت
                         <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
                     </a>
-                    <ul class="collapse show list-unstyled pl-3   " ">
+                    <ul class="collapse show list-unstyled pl-3   ">
                         <li><a class="text-decoration-none  @((ViewBag.currentGender==null)?"text-success":"")" href="/home/shop">همه</a></li>
                         <li><a class="text-decoration-none @((ViewBag.currentGender=="man")?"text-success":"")" href="/home/shop?gender=man">مردانه</a></li>
                         <li><a class="text-decoration-none @((ViewBag.currentGender=="woman")?"text-success":"")" href="/home/shop?gender=woman">زنانه</a></li>
                         <li><a class="text-decoration-none @((ViewBag.currentGender=="children")?"text-success":"")" href="/home/shop?gender=children">بچه‌گانه</a></li>
                     </ul>
                 </li>
-@*
-                <li class="pb-3">
-                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                        محصول
-                        <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
-                    </a>
-                    <ul id="collapseThree" class="collapse list-unstyled pl-3">
-                        <li><a class="text-decoration-none " href="#">کیف</a></li>
-                        <li><a class="text-decoration-none" href="#">ژاکت</a></li>
-                        <li><a class="text-decoration-none" href="#">عينك آفتابي</a></li>
-                    </ul>
-                </li>*@
+
             </ul>
         </div>
 
@@ -74,9 +63,9 @@
                                 </div>
                             </div>
                             <div class="card-body ">
-                                <a href="/home/shopSingle" class="h3 text-decoration-none">@item.Name</a>
+                                <a href="/home/shopSingle" class="text-decoration-none fs-vm">@item.Name</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                   @* <li>M/L/X/XL</li>*@
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -99,27 +88,18 @@
                         </div>
                     </div>
                 }
-
             </div>
-
             <div div="row ">
-                @*<div id="show-msg" class="d-flex justify-content-center col-12">
-                    <a id="show-more" class="btn btn-large   bg-f2f2f2 ">بیشتر</a>
-                    </div>*@
-
-                <ul class="pagination pagination-lg justify-content-center">
+                <ul class="pagination pagination-sm overflow-auto  justify-content-center">
                     @for (var i = 0; i < ViewBag.countPage; i++)
                     {
-                        <li class="page-item @((ViewBag.currentPage==i)?"disabled":"") ">
-                            <a style="cursor: pointer" class="page-link @((ViewBag.currentPage==i)?"active":"")  rounded-0 mr-3 shadow-sm border-top-0 border-left-0 " href="/home/shop?pageId=@i&gender=@(ViewBag.currentGender)" tabindex="-1">@(i+1)</a>
+                        <li class="page-item  @((ViewBag.currentPage == i) ? "disabled" : "")">
+                            <a style="cursor: pointer" class="page-link  @((ViewBag.currentPage == i) ? "active" : "")  rounded-0 mr-3 shadow-sm border-top-0 border-left-0 " href="/home/shop?pageId=@i&gender=@(ViewBag.currentGender)" tabindex="-1">@(i + 1)</a>
                         </li>
                     }
-
-
                 </ul>
             </div>
         </div>
-
     </div>
 </div>
 <!-- End Content -->
@@ -288,3 +268,12 @@
 
 
     </script>*@
+
+@section Scripts{
+<script type="text/javascript">
+
+</script>
+
+}
+
+
