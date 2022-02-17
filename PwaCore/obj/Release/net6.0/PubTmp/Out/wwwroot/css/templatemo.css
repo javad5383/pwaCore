@@ -30,24 +30,24 @@ Table of contents
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px !important;
-  font-weight: 300 !important;
-  direction:rtl;
+    font-family: 'IRANSansWeb';
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    direction: rtl;
 }
 .h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 48px !important;
-  font-weight: 200 !important;
+    font-family: 'IRANSansWeb';
+    font-size: 48px !important;
+    font-weight: 200 !important;
 }
 .h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px !important;
-  font-weight: 300;
+    font-family: 'IRANSansWeb';
+    font-size: 30px !important;
+    font-weight: 300;
 }
 .h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px !important;
+    font-family: 'IRANSansWeb';
+    font-size: 22px !important;
 }
 /* General */
 .logo { font-weight: 500 !important;}
@@ -72,7 +72,7 @@ body, ul, li, p, a, label, input, div {
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
 #templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav a:hover { color: #FFD952;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
@@ -117,13 +117,13 @@ body, ul, li, p, a, label, input, div {
 }
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
-  margin-top: -50px;
-  background-color: #59ab6e;
+    margin-top: -50px;
+    background-color: #FFD952;
 }
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #59ab6e !important;
-  font-size: 2.8em !important;
+    color: #FFD952 !important;
+    font-size: 2.8em !important;
 }
 /* Carousel Brand */
 .tempaltemo-carousel .h1 {
