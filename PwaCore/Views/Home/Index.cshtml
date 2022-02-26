@@ -1,21 +1,6 @@
 ﻿<!-- Close Header -->
 <!-- Modal -->
-@*  <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-    <div class="w-100 pt-1 mb-5 text-right">
-    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <form action="" method="get" class="modal-content modal-body border-0 p-0">
-    <div class="input-group mb-2">
-    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="بیاب...">
-    <button type="submit" class="input-group-text bg-success text-light">
-    <i class="fa fa-fw fa-search text-white"></i>
-    </button>
-    </div>
-    </form>
-    </div>
-    </div>
+@*  
 
 *@
 @{
@@ -33,7 +18,7 @@
             <div>
                 <div>
                     <div>
-                        <img class="w-100 h-baner" src="/img/banner1.png" />
+                        <a href="/home/shop?gender=woman"><img class="w-100 h-baner" src="/img/banner1.png" /></a>
                     </div>
                 </div>
             </div>
@@ -42,7 +27,7 @@
             <div class="">
                 <div class="row">
                     <div class="">
-                        <img class="w-100 h-baner" src="/img/banner2.png" />
+                        <a href="/home/shop?gender=man"><img class="w-100 h-baner" src="/img/banner2.png" /></a>
                     </div>
                 </div>
             </div>
@@ -52,7 +37,7 @@
             <div>
                 <div>
                     <div>
-                        <img class="w-100 h-baner" src="/img/banner3.png" />
+                        <a href="/home/shop?gender=children"><img class="w-100 h-baner" src="/img/banner3.png" /></a>
                     </div>
                 </div>
             </div>
@@ -141,9 +126,9 @@
                                     <i class="text-muted fa fa-star"></i>
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
-                             
+
                             </ul>
-                            <a href="/home/shopSingle" class="h3  text-decoration-none text-dark">@product.Name</a>
+                            <a href="/home/shopSingle?productId=@product.Id" class="h3  text-decoration-none text-dark">@product.Name</a>
 
                             <p class="text-muted">@product.Price.ToString("##,###") تومان</p>
                         </div>
@@ -161,7 +146,7 @@
             <div class="col-12">
                 <img class="banner h-baner" src="/img/Group 221.png" />
             </div>
-            
+
 
         </div>
     </div>
@@ -191,10 +176,10 @@
                                     <i class="text-muted fa fa-star"></i>
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
-                               
+
                             </ul>
-                            <a href="/home/shopSingle" class="h3 h-75 text-decoration-none text-dark">@product.Name</a>
-                            <br/>
+                            <a href="/home/shopSingle?productId=@product.Id" class="h3 h-75 text-decoration-none text-dark">@product.Name</a>
+                            <br />
                             <p class="text-muted">@product.Price.ToString("##,###") تومان</p>
                         </div>
                     </div>
@@ -209,21 +194,21 @@
     <div class="container-fluid">
         <div class="row d-flex text-center">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <img class="small-banner" src="/img/Group 184.png"/>
+                <img class="small-banner" src="/img/Group 184.png" />
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <img class="small-banner" src="/img/Group 185.png"/>
+                <img class="small-banner" src="/img/Group 185.png" />
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <img class="small-banner" src="/img/Group 186.png"/>
+                <img class="small-banner" src="/img/Group 186.png" />
             </div>
         </div>
-        
+
 
     </div>
 </section>
 
-@* @section Scripts{
+@*@section Scripts{
     <script src="/app.js"></script>
     }*@
 <!-- End Featured Product -->

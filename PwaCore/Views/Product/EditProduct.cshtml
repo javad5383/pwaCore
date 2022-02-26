@@ -2,13 +2,13 @@
 
 <div class="container">
     <div style="margin-top:100px" class="container-fluid">
-        <form asp-controller="AddProduct" asp-action="index" method="post" enctype="multipart/form-data">
+        <form asp-controller="Product" asp-action="index" method="post" enctype="multipart/form-data">
             <div class="form-row addpro">
                 <div class="col-md-6">
-                    <input asp-for="Name" type="text" class="form-control" placeholder="نام محصول">
+                    <input asp-for="Name" type="text" class="form-control" placeholder="نام محصول" value="@Model.Name">
                 </div>
                 <div class="col-md-6">
-                    <input asp-for="Price" type="number" class="form-control" placeholder="قیمت">
+                    <input asp-for="Price" type="number" class="form-control" placeholder="قیمت" value="@Model.Price">
                 </div>
             </div>
             <div class="form-row addpro">
@@ -28,8 +28,16 @@
             </div>
             <div class="form-row addpro">
                 <div id="img-preview" class="col-md-6">
+                    <img style="width: 50%" class="img-thumbnail" src="/img/@Model.MainImg" />
                 </div>
                 <div id="gallery" class="col-md-6">
+                    @if  (@Model.ProductImages!=null)
+                    {
+                        foreach (var item in Model.ProductImages)
+                        {
+                            <img style="width: 25%" class="img-thumbnail" src="/img/@item.ImgName"/>
+                        }
+                    }
                 </div>
             </div>
             <div class="mb-5">

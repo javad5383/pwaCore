@@ -5,12 +5,12 @@ using PwaCore.Services.Interface;
 namespace PwaCore.Controllers
 {
 
-    public class AddProduct : Controller
+    public class Product : Controller
     {
         
         private readonly IProductService _productService;
 
-        public AddProduct(IProductService productService)
+        public Product(IProductService productService)
         {
 
             _productService = productService;
@@ -19,7 +19,7 @@ namespace PwaCore.Controllers
 
         public IActionResult Index()
         {
-            return View("/Views/Admin/AddProduct.cshtml");
+            return View("/Views/Product/AddProduct.cshtml");
         }
         [HttpPost]
         public IActionResult Index(Products product,string gender,IFormFile mainImg, List<IFormFile> images)
@@ -30,6 +30,18 @@ namespace PwaCore.Controllers
 
             //return Redirect("/home/shop");
             return Redirect("/addProduct");
+        }
+
+        public IActionResult EditProduct(int id)
+        {
+           var prod= _productService.GetProductById(id);
+           return View(prod);
+        }
+        [HttpPost]
+        public IActionResult EditProduct(Products product)
+        {
+            var prod = _productService.GetProductById(1);
+            return View(prod);
         }
     }
 }

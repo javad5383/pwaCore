@@ -1,10 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Net;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using PwaCore.Models;
 using PwaCore.Services.Interface;
 
@@ -29,7 +32,7 @@ namespace PwaCore.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Index(AccountViewModel userInput)//login
+        public async Task<IActionResult> Index(AccountViewModel userInput,string foo)//login
         {
             if (User.Identity!.IsAuthenticated)
             {
@@ -45,7 +48,7 @@ namespace PwaCore.Controllers
             }
             const string emailRegex = @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$";
             bool isValidEmail = Regex.IsMatch(userInput.Email, emailRegex);
-
+            
             const string usaPhoneNumbersRegex = @"\(?\d{3}\)?-? *\d{3}-? *-?\d{4}";
             bool isValidPhone = Regex.IsMatch(userInput.Email, usaPhoneNumbersRegex);
 
@@ -54,14 +57,39 @@ namespace PwaCore.Controllers
                 ModelState.AddModelError("Email", "فرمت ایمیل یا شماره تلفن اشتباه است");
                 return View(userInput);
             }
-
-
             #endregion
+
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+
+                var res = httpClient.GetAsync($"https://www.google.com/recaptcha/api/siteverify?secret=6LdZ_oseAAAAALqjwGBp92kFvb0JNVmIwRwkmw1E&response= {foo}").Result;
+
+                if (res.StatusCode != HttpStatusCode.OK)
+                {
+                    ModelState.AddModelError("Email", "درخواست شما با خظا مواجه شد لظفا دوباره تلاش کنید");
+                    return View(userInput);
+                }
+                string JSONres = res.Content.ReadAsStringAsync().Result;
+                dynamic JSONdata = JObject.Parse(JSONres);
+
+                if (JSONdata.success != "true" || JSONdata.score <= 0.5m)
+                {
+                    ModelState.AddModelError("Email", "خطا");
+                    return View();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+               
+            }
+            
 
             var user = _service.GetUser(userInput.Email);
             if (user == null || user.Password != userInput.Password)
             {
-                ModelState.AddModelError("EmailOrPhone", "کاربر با مشخصات وارد شده یافت نشد ");
+                ModelState.AddModelError("Email", "کاربر با مشخصات وارد شده یافت نشد ");
                 return View();
             }
 
@@ -91,7 +119,7 @@ namespace PwaCore.Controllers
         [HttpPost]
         public IActionResult Register(AccountViewModel user)//attr name=asp-for...
         {
-            return View("Welcome");
+            //return View("Welcome");
             if (User.Identity!.IsAuthenticated)
             {
                 return Redirect("/");
@@ -140,5 +168,6 @@ namespace PwaCore.Controllers
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index");
         }
+       
     }
 }

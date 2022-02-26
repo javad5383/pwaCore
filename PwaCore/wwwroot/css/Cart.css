@@ -2,6 +2,8 @@
 .cart {
 
     background-color: #ffffff;
+   
+
     
 }
 body {
@@ -14,6 +16,9 @@ body {
     margin-bottom: 300px;
     margin: 100px 10% 200px 10%;
     
+}
+.h-img {
+    height: 400px!important;
 }
 
 footer {

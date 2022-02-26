@@ -2,7 +2,9 @@
 using PwaCore.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using System.Net;
 using Microsoft.AspNetCore.SignalR;
+using Newtonsoft.Json.Linq;
 using PwaCore.Services.Interface;
 
 namespace PwaCore.Services.Class
@@ -287,6 +289,13 @@ namespace PwaCore.Services.Class
             var skip = randomSkip.Next(0, countProducts - 5);
 
             return _context.Products.Where(p=>p.ForWoMan).Skip(skip).Take(4).ToList();
+        }
+
+        public List<Products> SearchProducts(string input)
+        {
+            return _context.Products
+                .Where(n=>n.Name.Contains(input))
+                .ToList()!;
         }
     }
 }

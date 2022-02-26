@@ -20,20 +20,20 @@
 
 
 <nav class="navbar navbar-expand-lg  navbar-light ">
-   <div class="container-fluid d-sm-block d-mymd-block d-lg-flex">
+    <div class="container-fluid d-sm-block d-mymd-block d-lg-flex">
         <div>
             <a class="navbar-brand " href="/">
-                <img class="logo" src="/img/icons/hh@4x 1.png"/>
+                <img class="logo" src="/img/icons/hh@4x 1.png" />
             </a>
         </div>
         <div>
-            <button  class="  navbar-toggler  border-0 margin-right" type="button" data-bs-toggle="collapse"
+            <button class="  navbar-toggler  border-0 margin-right" type="button" data-bs-toggle="collapse"
                     data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-       
+
 
         <div class="collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
              id="templatemo_main_nav">
@@ -54,9 +54,10 @@
                 </li>
 
             </ul>
+       
 
-
-            <div class="navbar m-5 align-self-start d-flex">
+        <div class=" m-5  ">
+            
                 @if (User.Identity!.IsAuthenticated)
                 {
                     <a id="" class="nav-icon position-relative text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="خروج از حساب کاربری" href="/account/Logout">
@@ -69,30 +70,38 @@
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                     </a>
                 }
-                <a id="installBtn" class="nav-icon position-relative text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="نصب برنامه" href="#">
-                    <i class="fa fa-fw fa-plus text-dark mr-3"></i>
-                </a>
-                <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                    <div class="input-group">
-                        <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                        <div class="input-group-text">
-                            <i class="fa fa-fw fa-search"></i>
-                        </div>
-                    </div>
-                </div>
-                <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal"
-                   data-bs-target="#templatemo_search">
+            
+            
+                <a class="nav-icon mr-2 d-lg-inline" id="searchIcon" href="#">
                     <i class="fa fa-fw fa-search text-dark mr-2"></i>
                 </a>
-                <a class="nav-icon position-relative text-decoration-none" href="/home/cart">
+            
+            
+                <input class="nav-icon search-input" type="text" placeholder="جستجو..." id="autocomplete" />
+            
+           
+                <a class="nav-icon  position-relative text-decoration-none" href="/home/cart">
                     <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                     @* <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>*@
                 </a>
-
-
-            </div>
+              
+                
+                
+            
+            @* <a id="installBtn" class="nav-icon position-relative text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="نصب برنامه" href="#">
+                <i class="fa fa-fw fa-plus text-dark mr-3"></i>
+            </a>*@
+            @*<div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                <div class="input-group">
+                <input type="text" class="form-control" id="inputMobileSearch" placeholder="جستجو...">
+                <div class="input-group-text">
+                <i class="fa fa-fw fa-search"></i>
+                </div>
+                </div>
+                </div>*@
         </div>
+    </div>
 
-   </div>
+    </div>
 </nav>
 

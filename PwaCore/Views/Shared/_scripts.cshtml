@@ -5,7 +5,8 @@
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/templatemo.js"></script>
-
+@*<script src="//code.jquery.com/jquery-1.12.4.js"></script>*@
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="/js/custom.js"></script>
 
 
@@ -19,7 +20,46 @@
 </script>
 
 <script src="/js/MyScript.js"></script>
+<script>
+    $("#autocomplete").fadeOut();
+    $("#searchIcon").click(function() {
+        $("#autocomplete").animate({
+                width: ["toggle", "swing"],
+                opacity: "toggle"
+            },
+            500, "linear",
+            function() {});
+    });
 
+   
+
+    //res = fetch('/home/search?input=لب')
+    //    .then(response => {
+    //        var a = response.json();
+    //        console.log(a);
+    //        return a;
+    //    });
+        //.then(console.log(response));
+    $("#autocomplete").autocomplete({
+        //minLength: 3,
+        source: function (request, response) {
+            var search = $("#autocomplete").val();
+            $.getJSON("/home/search?input=" + search,
+                function (data) {
+                    //console.log(data);
+                    response(data);
+                });
+        }
+        , 
+        select: function (a, b) {
+
+            console.log(b.item.data);
+            location.href = `/home/ShopSingle?productId=${b.item.data}`;
+        }
+    });
+
+    
+</script>
 
 @*<script>
     $('#carousel-related-product').slick({

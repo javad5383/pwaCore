@@ -3,9 +3,12 @@
     "",
     "\\PwaCore",
     "\\PwaCore\\Views",
+    "\\PwaCore\\Views\\Account",
     "\\PwaCore\\Views\\Home",
+    "\\PwaCore\\Views\\Shared",
+    "\\PwaCore\\wwwroot",
     "\\PwaCore\\wwwroot\\css"
   ],
-  "SelectedNode": "\\PwaCore\\Views\\Home\\Shop.cshtml",
+  "SelectedNode": "\\PwaCore.sln",
   "PreviewInSolutionExplorer": false
 }

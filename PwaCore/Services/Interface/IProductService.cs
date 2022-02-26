@@ -22,5 +22,7 @@ namespace PwaCore.Services.Interface
         void FinishPayment(int userId,int cartId);
         List<Products> GetRandomProducts();
         List<Products> GetSpatial();
+
+        List<Products> SearchProducts(string input);
     }
 }
