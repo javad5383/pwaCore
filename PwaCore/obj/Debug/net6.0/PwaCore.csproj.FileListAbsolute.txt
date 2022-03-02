@@ -144,4 +144,3 @@ C:\Users\javad\Source\Repos\afsoon\PwaCore\obj\Debug\net6.0\PwaCore.dll
 C:\Users\javad\Source\Repos\afsoon\PwaCore\obj\Debug\net6.0\ref\PwaCore.dll
 C:\Users\javad\Source\Repos\afsoon\PwaCore\obj\Debug\net6.0\PwaCore.pdb
 C:\Users\javad\Source\Repos\afsoon\PwaCore\obj\Debug\net6.0\PwaCore.genruntimeconfig.cache
-C:\Users\mohammad\source\repos\pwaCore\PwaCore\obj\Debug\net6.0\PwaCore.csproj.AssemblyReference.cache
