@@ -18,7 +18,7 @@
     <div id="mapid" style="width: 100%; height: 300px;"></div>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <script>
-        var mymap = L.map('mapid').setView([35.94671987635109, 52.127239066425496], 13);
+        var mymap = L.map('mapid').setView([35.6994236954754, 51.33715773139343], 13);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
             maxZoom: 18,
@@ -30,8 +30,8 @@
             zoomOffset: -1
         }).addTo(mymap);
 
-        L.marker([35.94671987635109, 52.127239066425496]).addTo(mymap)
-            .bindPopup("<b>جواد محمدی</b>").openPopup();
+        L.marker([35.6994236954754, 51.33715773139343]).addTo(mymap)
+            .bindPopup("<b> فروشگاه افسون</b>").openPopup();
 
         mymap.scrollWheelZoom.disable();
         mymap.touchZoom.disable();
