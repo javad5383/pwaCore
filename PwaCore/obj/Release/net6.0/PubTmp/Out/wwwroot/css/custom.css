@@ -153,6 +153,9 @@ a, a:hover, a:focus, a:active {
     .d-xs-none {
         display: none;
     }
+    .fs-vm {
+        font-size: .7em !important;
+    }
     .h-baner {
         height: 350px;
     }
