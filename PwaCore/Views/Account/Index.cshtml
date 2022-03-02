@@ -1,12 +1,10 @@
-﻿
-@model AccountViewModel
+﻿@model AccountViewModel
 @{
     Layout = null;
     ViewData["Title"] = "ثبت نام/ورود";
-    
-    
-}
 
+
+}
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/css/Login.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,75 +20,83 @@
             </li>
 
         </ul>
-        <input id="hid" type="hidden" value="@ViewBag.register"/>
+        <input id="hid" type="hidden" value="@ViewBag.register" />
         <div class="tab-content" id="pills-tabContent">
 
             <div class="tab-pane fade @((ViewBag.register==null)?"show active ":"") " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="form px-4 pt-5">
-                    <form  asp-controller="Account" asp-action="Index" method="post">
-                        @if (ViewBag.login!=null){ <span asp-validation-for="Email" class="text-danger"></span>}
-                       
+                    <form asp-controller="Account" asp-action="Index" method="post">
+                        @if (ViewBag.login != null)
+                        {
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        }
+
                         <input id="EmailOrPhone" type="text" name="Email" asp-for="Email" class="form-control" placeholder="ایمیل یا شماره تلفن ">
 
-                    @if (ViewBag.login != null)
-                    {
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    }
+                        @if (ViewBag.login != null)
+                        {
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        }
                         <input type="password" asp-for="Password" name="Password" class="form-control" placeholder="رمز عبور">
                         <div>
                             <label for="rememberMe">مرا به خاطر بسپار</label>
-                            <input type="checkbox" asp-for="RememberMe" id="rememberMe" name="rememberMe"/>
+                            <input type="checkbox" asp-for="RememberMe" id="rememberMe" name="rememberMe" />
                         </div>
                         <div class="text-center">
-                            <button class="btn btn-dark btn-block">ورود</button>
+                            <button 
+                                    class="btn g-recaptcha btn-dark btn-block">ورود</button>
                             <span class="text-danger"></span>
                         </div>
-                       
+
+                        <input type="hidden" id="foo" name="foo" />
                     </form>
-                   
+
                 </div>
             </div>
 
             <div class="tab-pane fade @((ViewBag.register!=null)?"show active ":"") " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="form px-4">
                     <form id="submitForm" method="post" asp-controller="Account" asp-action="Register">
-                      @if (ViewBag.register!=null)
-                      {
-                          <span asp-validation-for="Name" class="text-danger"></span>
-                      }
+                        @if (ViewBag.register != null)
+                        {
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        }
                         <input asp-for="Name" type="text" name="Name" class="form-control" placeholder="نام">
-                        
-                      @if (ViewBag.register!=null)
-                      {
-                          <span asp-validation-for="Email" class="text-danger"></span>
-                      }
-                     
+
+                        @if (ViewBag.register != null)
+                        {
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        }
+
                         <input asp-for="Email" type="text" name="Email" class="form-control" placeholder="ایمیل">
-                      @if (ViewBag.register!=null)
-                      {
-                          <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-                      }  
-                       
+                        @if (ViewBag.register != null)
+                        {
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        }
+
                         <input asp-for="PhoneNumber" type="number" name="PhoneNumber" class="form-control" placeholder="شماره تلفن">
-                      @if (ViewBag.register!=null)
-                      {
-                          <span asp-validation-for="Password" class="text-danger"></span>
-                      }
-                       
+                        @if (ViewBag.register != null)
+                        {
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        }
+
                         <input asp-for="Password" type="password" name="Password" class="form-control" placeholder="رمز عبور">
-                      @if (ViewBag.register!=null)
-                      {
-                          <span asp-validation-for="RePassword" class="text-danger"></span>
-                      }
-                       
+                        @if (ViewBag.register != null)
+                        {
+                            <span asp-validation-for="RePassword" class="text-danger"></span>
+                        }
+
                         <input asp-for="RePassword" type="password" name="RePassword" class="form-control" placeholder="تکرار رمز عبور ">
-                        <button id="submit"  class="btn btn-dark btn-block">نام نویسی</button>
-                        
+                        <button 
+                                 class="btn g-recaptcha btn-dark btn-block">
+                            نام نویسی
+                        </button>
+
                     </form>
-                    
+
                 </div>
             </div>
-          
+
 
         </div>
 
@@ -101,3 +107,11 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdZ_oseAAAAAAUqkh5AnCKJeD-LLSkb-pUjYime"></script>
+<script>
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6LdZ_oseAAAAAAUqkh5AnCKJeD-LLSkb-pUjYime', { action: 'homepage' }).then(function (token) {
+            document.getElementById("foo").value = token;
+        });
+    });
+</script>

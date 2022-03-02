@@ -38,6 +38,11 @@ namespace PwaCore.Controllers
         {
             return View();
         }
+        public IActionResult Search(string input)
+        {
+           var searchResult= _productService.SearchProducts(input);
+           return Json(searchResult.Select(s => new { value = s.Name, data = s.Id }).ToArray());
+        }
         [Authorize]
         public IActionResult Cart()
         {
@@ -130,7 +135,7 @@ namespace PwaCore.Controllers
 
             return View();
         }
-        public IActionResult Shop(string gender, int pageId = 0)// 0 is default value for pageId(when pageId is null)
+        public IActionResult Shop(string gender, int pageId = 0)
         {
             var prod = _productService.GetProducts(pageId, gender);
 
